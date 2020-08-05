@@ -4,10 +4,15 @@ services:
     image: bkimminich/juice-shop
     ports:
       - 3000:3000
-      
+
   arachni:
     image: arachni/arachni:latest
     ports:
       - 222:22
       - 7331:7331
       - 9292:9292
+
+  zap-proxy:
+    image: owasp/zap2docker-stable
+    ports:
+      - 8080:8080
