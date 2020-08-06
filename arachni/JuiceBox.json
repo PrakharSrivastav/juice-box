@@ -1,0 +1,640 @@
+{
+  "version" : "1.5.1",
+  "seed" : "4f8cad2845a907b2e77514ca2a36122f",
+  "options" : {
+    "input" : {
+      "values" : {
+        "name" : "arachni_name",
+        "user" : "arachni_user",
+        "usr" : "arachni_user",
+        "pass" : "5543!%arachni_secret",
+        "txt" : "arachni_text",
+        "num" : "132",
+        "amount" : "100",
+        "mail" : "arachni@email.gr",
+        "account" : "12",
+        "id" : "1"
+      },
+      "default_values" : {
+        "name" : "arachni_name",
+        "user" : "arachni_user",
+        "usr" : "arachni_user",
+        "pass" : "5543!%arachni_secret",
+        "txt" : "arachni_text",
+        "num" : "132",
+        "amount" : "100",
+        "mail" : "arachni@email.gr",
+        "account" : "12",
+        "id" : "1"
+      },
+      "without_defaults" : true,
+      "force" : false
+    },
+    "scope" : {
+      "redundant_path_patterns" : {},
+      "dom_depth_limit" : 5,
+      "exclude_file_extensions" : [
+        "[]"
+      ],
+      "exclude_path_patterns" : [],
+      "exclude_content_patterns" : [],
+      "include_path_patterns" : [],
+      "restrict_paths" : [],
+      "extend_paths" : [],
+      "url_rewrites" : {}
+    },
+    "session" : {},
+    "http" : {
+      "user_agent" : "Arachni/v1.5.1",
+      "request_timeout" : 10000,
+      "request_redirect_limit" : 5,
+      "request_concurrency" : 20,
+      "request_queue_size" : 100,
+      "request_headers" : {},
+      "response_max_size" : 500000,
+      "cookies" : {},
+      "authentication_type" : "auto"
+    },
+    "browser_cluster" : {
+      "local_storage" : {},
+      "wait_for_elements" : {},
+      "pool_size" : 6,
+      "job_timeout" : 10,
+      "worker_time_to_live" : 100,
+      "ignore_images" : false,
+      "screen_width" : 1600,
+      "screen_height" : 1200
+    },
+    "audit" : {
+      "parameter_values" : true,
+      "exclude_vector_patterns" : [],
+      "include_vector_patterns" : [],
+      "link_templates" : [],
+      "links" : true,
+      "forms" : true,
+      "cookies" : true,
+      "jsons" : true,
+      "xmls" : true,
+      "ui_forms" : true,
+      "ui_inputs" : true
+    },
+    "datastore" : {
+      "token" : "3537efe66c69e20768492076d9701e51"
+    },
+    "checks" : [
+      "allowed_methods",
+      "backdoors",
+      "backup_directories",
+      "backup_files",
+      "captcha",
+      "code_injection",
+      "code_injection_php_input_wrapper",
+      "code_injection_timing",
+      "common_admin_interfaces",
+      "common_directories",
+      "common_files",
+      "cookie_set_for_parent_domain",
+      "credit_card",
+      "csrf",
+      "cvs_svn_users",
+      "directory_listing",
+      "emails",
+      "file_inclusion",
+      "form_upload",
+      "hsts",
+      "htaccess_limit",
+      "html_objects",
+      "http_only_cookies",
+      "http_put",
+      "insecure_client_access_policy",
+      "insecure_cookies",
+      "insecure_cors_policy",
+      "insecure_cross_domain_policy_access",
+      "insecure_cross_domain_policy_headers",
+      "interesting_responses",
+      "ldap_injection",
+      "localstart_asp",
+      "mixed_resource",
+      "no_sql_injection",
+      "no_sql_injection_differential",
+      "origin_spoof_access_restriction_bypass",
+      "os_cmd_injection",
+      "os_cmd_injection_timing",
+      "password_autocomplete",
+      "path_traversal",
+      "private_ip",
+      "response_splitting",
+      "rfi",
+      "session_fixation",
+      "source_code_disclosure",
+      "sql_injection",
+      "sql_injection_differential",
+      "sql_injection_timing",
+      "ssn",
+      "trainer",
+      "unencrypted_password_forms",
+      "unvalidated_redirect",
+      "unvalidated_redirect_dom",
+      "webdav",
+      "x_frame_options",
+      "xpath_injection",
+      "xss",
+      "xss_dom",
+      "xss_dom_script_context",
+      "xss_event",
+      "xss_path",
+      "xss_script_context",
+      "xss_tag",
+      "xst",
+      "xxe"
+    ],
+    "platforms" : [],
+    "plugins" : {
+      "autothrottle" : {},
+      "discovery" : {},
+      "healthmap" : {},
+      "timing_attacks" : {},
+      "uniformity" : {}
+    },
+    "no_fingerprinting" : false,
+    "authorized_by" : null,
+    "url" : "http://juice-box_juice-box_1:3000/"
+  },
+  "sitemap" : {
+    "http://juice-box_juice-box_1:3000/" : 200,
+    "http://juice-box_juice-box_1:3000/assets/public/favicon_js.ico" : 200,
+    "http://juice-box_juice-box_1:3000/runtime-es5.js" : 200,
+    "http://juice-box_juice-box_1:3000/runtime-es2015.js" : 200,
+    "http://juice-box_juice-box_1:3000/polyfills-es2015.js" : 200,
+    "http://juice-box_juice-box_1:3000/polyfills-es5.js" : 200,
+    "http://juice-box_juice-box_1:3000/styles.css" : 200,
+    "http://juice-box_juice-box_1:3000/main-es2015.js" : 200,
+    "http://juice-box_juice-box_1:3000/vendor-es2015.js" : 200,
+    "http://juice-box_juice-box_1:3000/main-es5.js" : 200,
+    "http://juice-box_juice-box_1:3000/vendor-es5.js" : 200
+  },
+  "start_datetime" : "2020-08-06 19:08:50 +0000",
+  "finish_datetime" : "2020-08-06 19:10:25 +0000",
+  "delta_time" : "00:01:35",
+  "issues" : [
+    {
+      "name" : "Common directory",
+      "description" : "\nWeb applications are often made up of multiple files and directories.\n\nIt is possible that over time some directories may become unreferenced (unused)\nby the web application and forgotten about by the administrator/developer.\nBecause web applications are built using common frameworks, they contain common\ndirectories that can be discovered (independent of server).\n\nDuring the initial recon stages of an attack, cyber-criminals will attempt to\nlocate unreferenced directories in the hope that the directory will assist in further\ncompromise of the web application.\nTo achieve this they will make thousands of requests using word lists containing\ncommon names.\nThe response headers from the server will then indicate if the directory exists.\n\nArachni also contains a list of common directory names which it will attempt to access.\n",
+      "references" : {
+        "CWE" : "http://cwe.mitre.org/data/definitions/538.html",
+        "OWASP" : "https://www.owasp.org/index.php/Forced_browsing"
+      },
+      "cwe" : 538,
+      "severity" : "medium",
+      "remedy_guidance" : "\nIf directories are unreferenced then they should be removed from the web root\nand/or the application directory.\n\nPreventing access without authentication may also be an option and can stop a\nclient from being able to view the contents of a file, however it is still likely\nthat the directory structure will be able to be discovered.\n\nUsing obscure directory names is implementing security through obscurity and is\nnot a recommended option.\n",
+      "check" : {
+        "name" : "Common directories",
+        "description" : "Tries to find common directories on the server.",
+        "elements" : [
+          "server"
+        ],
+        "author" : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version" : "0.2.3",
+        "shortname" : "common_directories"
+      },
+      "vector" : {
+        "class" : "Arachni::Element::Server",
+        "type" : "server",
+        "url" : "http://juice-box_juice-box_1:3000/ftp/",
+        "affected_input_name" : null
+      },
+      "referring_page" : {
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page" : {
+        "body" : "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset='utf-8'> \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" />\n    <title>listing directory /ftp/</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialiased;\n}\nh1, h2, h3 {\n  font-size: 22px;\n  color: #343434;\n}\nh1 em, h2 em {\n  padding: 0 5px;\n  font-weight: normal;\n}\nh1 {\n  font-size: 60px;\n}\nh2 {\n  margin-top: 10px;\n}\nh3 {\n  margin: 5px 0 10px 0;\n  padding-bottom: 5px;\n  border-bottom: 1px solid #eee;\n  font-size: 18px;\n}\nul li {\n  list-style: none;\n}\nul li:hover {\n  cursor: pointer;\n  color: #2e2e2e;\n}\nul li .path {\n  padding-left: 5px;\n  font-weight: bold;\n}\nul li .line {\n  padding-right: 5px;\n  font-style: italic;\n}\nul li:first-child .path {\n  padding-left: 0;\n}\np {\n  line-height: 1.5;\n}\na {\n  color: #555;\n  text-decoration: none;\n}\na:hover {\n  color: #303030;\n}\n#stacktrace {\n  margin-top: 15px;\n}\n.directory h1 {\n  margin-bottom: 15px;\n  font-size: 18px;\n}\nul#files {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n}\nul#files li {\n  float: left;\n  width: 30%;\n  line-height: 25px;\n  margin: 1px;\n}\nul#files li a {\n  display: block;\n  height: 25px;\n  border: 1px solid transparent;\n  -webkit-border-radius: 5px;\n  -moz-border-radius: 5px;\n  border-radius: 5px;\n  overflow: hidden;\n  white-space: nowrap;\n}\nul#files li a:focus,\nul#files li a:hover {\n  background: rgba(255,255,255,0.65);\n  border: 1px solid #ececec;\n}\nul#files li a.highlight {\n  -webkit-transition: background .4s ease-in-out;\n  background: #ffff4f;\n  border-color: #E9DC51;\n}\n#search {\n  display: block;\n  position: fixed;\n  top: 20px;\n  right: 20px;\n  width: 90px;\n  -webkit-transition: width ease 0.2s, opacity ease 0.4s;\n  -moz-transition: width ease 0.2s, opacity ease 0.4s;\n  -webkit-border-radius: 32px;\n  -moz-border-radius: 32px;\n  -webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03);\n  -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03);\n  -webkit-font-smoothing: antialiased;\n  text-align: left;\n  font: 13px \"Helvetica Neue\", Arial, sans-serif;\n  padding: 4px 10px;\n  border: none;\n  background: transparent;\n  margin-bottom: 0;\n  outline: none;\n  opacity: 0.7;\n  color: #888;\n}\n#search:focus {\n  width: 120px;\n  opacity: 1.0; \n}\n\n/*views*/\n#files span {\n  display: inline-block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-indent: 10px;\n}\n#files .name {\n  background-repeat: no-repeat;\n}\n#files .icon .name {\n  text-indent: 28px;\n}\n\n/*tiles*/\n.view-tiles .name {\n  width: 100%;\n  background-position: 8px 5px;\n}\n.view-tiles .size,\n.view-tiles .date {\n  display: none;\n}\n\n/*details*/\nul#files.view-details li {\n  float: none;\n  display: block;\n  width: 90%;\n}\nul#files.view-details li.header {\n  height: 25px;\n  background: #000;\n  color: #fff;\n  font-weight: bold;\n}\n.view-details .header {\n  border-radius: 5px;\n}\n.view-details .name {\n  width: 60%;\n  background-position: 8px 5px;\n}\n.view-details .size {\n  width: 10%;\n}\n.view-details .date {\n  width: 30%;\n}\n.view-details .size,\n.view-details .date {\n  text-align: right;\n  direction: rtl;\n}\n\n/*mobile*/\n@media (max-width: 768px) {\n  body {\n    font-size: 13px;\n    line-height: 16px;\n    padding: 0;\n  }\n  #search {\n    position: static;\n    width: 100%;\n    font-size: 2em;\n    line-height: 1.8em;\n    text-indent: 10px;\n    border: 0;\n    border-radius: 0;\n    padding: 10px 0;\n    margin: 0;\n  }\n  #search:focus {\n    width: 100%;\n    border: 0;\n    opacity: 1;\n  }\n  .directory h1 {\n    font-size: 2em;\n    line-height: 1.5em;\n    color: #fff;\n    background: #000;\n    padding: 15px 10px;\n    margin: 0;\n  }\n  ul#files {\n    border-top: 1px solid #cacaca;\n  }\n  ul#files li {\n    float: none;\n    width: auto !important;\n    display: block;\n    border-bottom: 1px solid #cacaca;\n    font-size: 2em;\n    line-height: 1.2em;\n    text-indent: 0;\n    margin: 0;\n  }\n  ul#files li:nth-child(odd) {\n    background: #e0e0e0;\n  }\n  ul#files li a {\n    height: auto;\n    border: 0;\n    border-radius: 0;\n    padding: 15px 10px;\n  }\n  ul#files li a:focus,\n  ul#files li a:hover {\n    border: 0;\n  }\n  #files .header,\n  #files .size,\n  #files .date {\n    display: none !important;\n  }\n  #files .name {\n    float: none;\n    display: inline-block;\n    width: 100%;\n    text-indent: 0;\n    background-position: 0 50%;\n  }\n  #files .icon .name {\n    text-indent: 41px;\n  }\n}\n#files .icon-directory .name {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAWtQTFRFAAAA/PPQ9Nhc2q402qQ12qs2/PTX2pg12p81+/LM89NE9dto2q82+/fp2rM22qY39d6U+/bo2qo2/frx/vz32q812qs12qE279SU8c4w9NZP+/LK//367s9y7s925cp0/vzw9t92//342po2/vz25s1579B6+OSO2bQ0/v799NyT8tE79dld8Msm+OrC/vzx79KA2IYs7s6I9d6R4cJe9+OF/PLI/fry79OF/v30//328tWB89RJ8c9p8c0u9eCf//7+9txs6sts5Mdr+++5+u2z/vrv+/fq6cFz8dBs8tA57cpq+OaU9uGs27Y8//799NdX/PbY9uB89unJ//z14sNf+emh+emk+vDc+uys9+OL8dJy89NH+eic8tN5+OaV+OWR9N2n9dtl9t529+KF9+GB9Nue9NdU8tR/9t5y89qW9dpj89iO89eG/vvu2pQ12Y4z/vzy2Ict/vvv48dr/vzz4sNg///+2Igty3PqwQAAAAF0Uk5TAEDm2GYAAACtSURBVBjTY2AgA2iYlJWVhfohBPg0yx38y92dS0pKVOVBAqIi6sb2vsWWpfrFeTI8QAEhYQEta28nCwM1OVleZqCAmKCEkUdwYWmhQnFeOStQgL9cySqkNNDHVJGbiY0FKCCuYuYSGRsV5KgjxcXIARRQNncNj09JTgqw0ZbkZAcK5LuFJaRmZqfHeNnpSucDBQoiEtOycnIz4qI9bfUKQA6pKKqAgqIKQyK8BgAZ5yfODmnHrQAAAABJRU5ErkJggg==);\n}\n#files .icon-text .name {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVBgZBcExblNBGAbA2ceegTRBuIKOgiihSZNTcC5LUHAihNJR0kGKCDcYJY6D3/77MdOinTvzAgCw8ysThIvn/VojIyMjIyPP+bS1sUQIV2s95pBDDvmbP/mdkft83tpYguZq5Jh/OeaYh+yzy8hTHvNlaxNNczm+la9OTlar1UdA/+C2A4trRCnD3jS8BB1obq2Gk6GU6QbQAS4BUaYSQAf4bhhKKTFdAzrAOwAxEUAH+KEM01SY3gM6wBsEAQB0gJ+maZoC3gI6iPYaAIBJsiRmHU0AALOeFC3aK2cWAACUXe7+AwO0lc9eTHYTAAAAAElFTkSuQmCC);\n}\n#files .icon-default .name {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC4SURBVCjPdZFbDsIgEEWnrsMm7oGGfZrohxvU+Iq1TyjU60Bf1pac4Yc5YS4ZAtGWBMk/drQBOVwJlZrWYkLhsB8UV9K0BUrPGy9cWbng2CtEEUmLGppPjRwpbixUKHBiZRS0p+ZGhvs4irNEvWD8heHpbsyDXznPhYFOyTjJc13olIqzZCHBouE0FRMUjA+s1gTjaRgVFpqRwC8mfoXPPEVPS7LbRaJL2y7bOifRCTEli3U7BMWgLzKlW/CuebZPAAAAAElFTkSuQmCC);\n}\n</style>\n    <script>\n      function $(id){\n        var el = 'string' == typeof id\n          ? document.getElementById(id)\n          : id;\n\n        el.on = function(event, fn){\n          if ('content loaded' == event) {\n            event = window.attachEvent ? \"load\" : \"DOMContentLoaded\";\n          }\n          el.addEventListener\n            ? el.addEventListener(event, fn, false)\n            : el.attachEvent(\"on\" + event, fn);\n        };\n\n        el.all = function(selector){\n          return $(el.querySelectorAll(selector));\n        };\n\n        el.each = function(fn){\n          for (var i = 0, len = el.length; i < len; ++i) {\n            fn($(el[i]), i);\n          }\n        };\n\n        el.getClasses = function(){\n          return this.getAttribute('class').split(/\\s+/);\n        };\n\n        el.addClass = function(name){\n          var classes = this.getAttribute('class');\n          el.setAttribute('class', classes\n            ? classes + ' ' + name\n            : name);\n        };\n\n        el.removeClass = function(name){\n          var classes = this.getClasses().filter(function(curr){\n            return curr != name;\n          });\n          this.setAttribute('class', classes.join(' '));\n        };\n\n        return el;\n      }\n\n      function search() {\n        var str = $('search').value.toLowerCase();\n        var links = $('files').all('a');\n\n        links.each(function(link){\n          var text = link.textContent.toLowerCase();\n\n          if ('..' == text) return;\n          if (str.length && ~text.indexOf(str)) {\n            link.addClass('highlight');\n          } else {\n            link.removeClass('highlight');\n          }\n        });\n      }\n\n      $(window).on('content loaded', function(){\n        $('search').on('keyup', search);\n      });\n    </script>\n  </head>\n  <body class=\"directory\">\n    <input id=\"search\" type=\"text\" placeholder=\"Search\" autocomplete=\"off\" />\n    <div id=\"wrapper\">\n      <h1><a href=\".\">~</a> / <a href=\"\">ftp</a> / </h1>\n      <ul id=\"files\" class=\"view-tiles\"><li><a href=\"quarantine\" class=\"icon icon-directory\" title=\"quarantine\"><span class=\"name\">quarantine</span><span class=\"size\"></span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"acquisitions.md\" class=\"icon icon icon-md icon-text\" title=\"acquisitions.md\"><span class=\"name\">acquisitions.md</span><span class=\"size\">909</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"announcement_encrypted.md\" class=\"icon icon icon-md icon-text\" title=\"announcement_encrypted.md\"><span class=\"name\">announcement_encrypted.md</span><span class=\"size\">369237</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"coupons_2013.md.bak\" class=\"icon icon icon-bak icon-default\" title=\"coupons_2013.md.bak\"><span class=\"name\">coupons_2013.md.bak</span><span class=\"size\">131</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"eastere.gg\" class=\"icon icon icon-gg icon-default\" title=\"eastere.gg\"><span class=\"name\">eastere.gg</span><span class=\"size\">324</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"encrypt.pyc\" class=\"icon icon icon-pyc icon-default\" title=\"encrypt.pyc\"><span class=\"name\">encrypt.pyc</span><span class=\"size\">573</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"incident-support.kdbx\" class=\"icon icon icon-kdbx icon-default\" title=\"incident-support.kdbx\"><span class=\"name\">incident-support.kdbx</span><span class=\"size\">3310</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"legal.md\" class=\"icon icon icon-md icon-text\" title=\"legal.md\"><span class=\"name\">legal.md</span><span class=\"size\">3047</span><span class=\"date\">8/5/2020 5:28:46 PM</span></a></li>\n<li><a href=\"package.json.bak\" class=\"icon icon icon-bak icon-default\" title=\"package.json.bak\"><span class=\"name\">package.json.bak</span><span class=\"size\">4427</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"suspicious_errors.yml\" class=\"icon icon icon-yml icon-text\" title=\"suspicious_errors.yml\"><span class=\"name\">suspicious_errors.yml</span><span class=\"size\">723</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li></ul>\n    </div>\n  </body>\n</html>",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/ftp/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks" : {},
+      "trusted" : true,
+      "tags" : [
+        "path",
+        "directory",
+        "common",
+        "discovery"
+      ],
+      "digest" : 2415543024,
+      "proof" : "HTTP/1.1 200 OK",
+      "cwe_url" : "http://cwe.mitre.org/data/definitions/538.html",
+      "response" : {
+        "headers" : {
+          "Access-Control-Allow-Origin" : "*",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options" : "SAMEORIGIN",
+          "Feature-Policy" : "payment 'self'",
+          "Content-Type" : "text/html; charset=utf-8",
+          "Vary" : "Accept-Encoding",
+          "Content-Encoding" : "gzip",
+          "Date" : "Thu, 06 Aug 2020 19:09:05 GMT",
+          "Connection" : "keep-alive",
+          "Transfer-Encoding" : "chunked"
+        },
+        "url" : "http://juice-box_juice-box_1:3000/ftp/",
+        "code" : 200,
+        "ip_address" : "172.19.0.2",
+        "headers_string" : "HTTP/1.1 200 OK\r\nAccess-Control-Allow-Origin: *\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nFeature-Policy: payment 'self'\r\nContent-Type: text/html; charset=utf-8\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Thu, 06 Aug 2020 19:09:05 GMT\r\nConnection: keep-alive\r\nTransfer-Encoding: chunked\r\n\r\n",
+        "body" : "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset='utf-8'> \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" />\n    <title>listing directory /ftp/</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialiased;\n}\nh1, h2, h3 {\n  font-size: 22px;\n  color: #343434;\n}\nh1 em, h2 em {\n  padding: 0 5px;\n  font-weight: normal;\n}\nh1 {\n  font-size: 60px;\n}\nh2 {\n  margin-top: 10px;\n}\nh3 {\n  margin: 5px 0 10px 0;\n  padding-bottom: 5px;\n  border-bottom: 1px solid #eee;\n  font-size: 18px;\n}\nul li {\n  list-style: none;\n}\nul li:hover {\n  cursor: pointer;\n  color: #2e2e2e;\n}\nul li .path {\n  padding-left: 5px;\n  font-weight: bold;\n}\nul li .line {\n  padding-right: 5px;\n  font-style: italic;\n}\nul li:first-child .path {\n  padding-left: 0;\n}\np {\n  line-height: 1.5;\n}\na {\n  color: #555;\n  text-decoration: none;\n}\na:hover {\n  color: #303030;\n}\n#stacktrace {\n  margin-top: 15px;\n}\n.directory h1 {\n  margin-bottom: 15px;\n  font-size: 18px;\n}\nul#files {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n}\nul#files li {\n  float: left;\n  width: 30%;\n  line-height: 25px;\n  margin: 1px;\n}\nul#files li a {\n  display: block;\n  height: 25px;\n  border: 1px solid transparent;\n  -webkit-border-radius: 5px;\n  -moz-border-radius: 5px;\n  border-radius: 5px;\n  overflow: hidden;\n  white-space: nowrap;\n}\nul#files li a:focus,\nul#files li a:hover {\n  background: rgba(255,255,255,0.65);\n  border: 1px solid #ececec;\n}\nul#files li a.highlight {\n  -webkit-transition: background .4s ease-in-out;\n  background: #ffff4f;\n  border-color: #E9DC51;\n}\n#search {\n  display: block;\n  position: fixed;\n  top: 20px;\n  right: 20px;\n  width: 90px;\n  -webkit-transition: width ease 0.2s, opacity ease 0.4s;\n  -moz-transition: width ease 0.2s, opacity ease 0.4s;\n  -webkit-border-radius: 32px;\n  -moz-border-radius: 32px;\n  -webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03);\n  -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03);\n  -webkit-font-smoothing: antialiased;\n  text-align: left;\n  font: 13px \"Helvetica Neue\", Arial, sans-serif;\n  padding: 4px 10px;\n  border: none;\n  background: transparent;\n  margin-bottom: 0;\n  outline: none;\n  opacity: 0.7;\n  color: #888;\n}\n#search:focus {\n  width: 120px;\n  opacity: 1.0; \n}\n\n/*views*/\n#files span {\n  display: inline-block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-indent: 10px;\n}\n#files .name {\n  background-repeat: no-repeat;\n}\n#files .icon .name {\n  text-indent: 28px;\n}\n\n/*tiles*/\n.view-tiles .name {\n  width: 100%;\n  background-position: 8px 5px;\n}\n.view-tiles .size,\n.view-tiles .date {\n  display: none;\n}\n\n/*details*/\nul#files.view-details li {\n  float: none;\n  display: block;\n  width: 90%;\n}\nul#files.view-details li.header {\n  height: 25px;\n  background: #000;\n  color: #fff;\n  font-weight: bold;\n}\n.view-details .header {\n  border-radius: 5px;\n}\n.view-details .name {\n  width: 60%;\n  background-position: 8px 5px;\n}\n.view-details .size {\n  width: 10%;\n}\n.view-details .date {\n  width: 30%;\n}\n.view-details .size,\n.view-details .date {\n  text-align: right;\n  direction: rtl;\n}\n\n/*mobile*/\n@media (max-width: 768px) {\n  body {\n    font-size: 13px;\n    line-height: 16px;\n    padding: 0;\n  }\n  #search {\n    position: static;\n    width: 100%;\n    font-size: 2em;\n    line-height: 1.8em;\n    text-indent: 10px;\n    border: 0;\n    border-radius: 0;\n    padding: 10px 0;\n    margin: 0;\n  }\n  #search:focus {\n    width: 100%;\n    border: 0;\n    opacity: 1;\n  }\n  .directory h1 {\n    font-size: 2em;\n    line-height: 1.5em;\n    color: #fff;\n    background: #000;\n    padding: 15px 10px;\n    margin: 0;\n  }\n  ul#files {\n    border-top: 1px solid #cacaca;\n  }\n  ul#files li {\n    float: none;\n    width: auto !important;\n    display: block;\n    border-bottom: 1px solid #cacaca;\n    font-size: 2em;\n    line-height: 1.2em;\n    text-indent: 0;\n    margin: 0;\n  }\n  ul#files li:nth-child(odd) {\n    background: #e0e0e0;\n  }\n  ul#files li a {\n    height: auto;\n    border: 0;\n    border-radius: 0;\n    padding: 15px 10px;\n  }\n  ul#files li a:focus,\n  ul#files li a:hover {\n    border: 0;\n  }\n  #files .header,\n  #files .size,\n  #files .date {\n    display: none !important;\n  }\n  #files .name {\n    float: none;\n    display: inline-block;\n    width: 100%;\n    text-indent: 0;\n    background-position: 0 50%;\n  }\n  #files .icon .name {\n    text-indent: 41px;\n  }\n}\n#files .icon-directory .name {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAWtQTFRFAAAA/PPQ9Nhc2q402qQ12qs2/PTX2pg12p81+/LM89NE9dto2q82+/fp2rM22qY39d6U+/bo2qo2/frx/vz32q812qs12qE279SU8c4w9NZP+/LK//367s9y7s925cp0/vzw9t92//342po2/vz25s1579B6+OSO2bQ0/v799NyT8tE79dld8Msm+OrC/vzx79KA2IYs7s6I9d6R4cJe9+OF/PLI/fry79OF/v30//328tWB89RJ8c9p8c0u9eCf//7+9txs6sts5Mdr+++5+u2z/vrv+/fq6cFz8dBs8tA57cpq+OaU9uGs27Y8//799NdX/PbY9uB89unJ//z14sNf+emh+emk+vDc+uys9+OL8dJy89NH+eic8tN5+OaV+OWR9N2n9dtl9t529+KF9+GB9Nue9NdU8tR/9t5y89qW9dpj89iO89eG/vvu2pQ12Y4z/vzy2Ict/vvv48dr/vzz4sNg///+2Igty3PqwQAAAAF0Uk5TAEDm2GYAAACtSURBVBjTY2AgA2iYlJWVhfohBPg0yx38y92dS0pKVOVBAqIi6sb2vsWWpfrFeTI8QAEhYQEta28nCwM1OVleZqCAmKCEkUdwYWmhQnFeOStQgL9cySqkNNDHVJGbiY0FKCCuYuYSGRsV5KgjxcXIARRQNncNj09JTgqw0ZbkZAcK5LuFJaRmZqfHeNnpSucDBQoiEtOycnIz4qI9bfUKQA6pKKqAgqIKQyK8BgAZ5yfODmnHrQAAAABJRU5ErkJggg==);\n}\n#files .icon-text .name {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVBgZBcExblNBGAbA2ceegTRBuIKOgiihSZNTcC5LUHAihNJR0kGKCDcYJY6D3/77MdOinTvzAgCw8ysThIvn/VojIyMjIyPP+bS1sUQIV2s95pBDDvmbP/mdkft83tpYguZq5Jh/OeaYh+yzy8hTHvNlaxNNczm+la9OTlar1UdA/+C2A4trRCnD3jS8BB1obq2Gk6GU6QbQAS4BUaYSQAf4bhhKKTFdAzrAOwAxEUAH+KEM01SY3gM6wBsEAQB0gJ+maZoC3gI6iPYaAIBJsiRmHU0AALOeFC3aK2cWAACUXe7+AwO0lc9eTHYTAAAAAElFTkSuQmCC);\n}\n#files .icon-default .name {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC4SURBVCjPdZFbDsIgEEWnrsMm7oGGfZrohxvU+Iq1TyjU60Bf1pac4Yc5YS4ZAtGWBMk/drQBOVwJlZrWYkLhsB8UV9K0BUrPGy9cWbng2CtEEUmLGppPjRwpbixUKHBiZRS0p+ZGhvs4irNEvWD8heHpbsyDXznPhYFOyTjJc13olIqzZCHBouE0FRMUjA+s1gTjaRgVFpqRwC8mfoXPPEVPS7LbRaJL2y7bOifRCTEli3U7BMWgLzKlW/CuebZPAAAAAElFTkSuQmCC);\n}\n</style>\n    <script>\n      function $(id){\n        var el = 'string' == typeof id\n          ? document.getElementById(id)\n          : id;\n\n        el.on = function(event, fn){\n          if ('content loaded' == event) {\n            event = window.attachEvent ? \"load\" : \"DOMContentLoaded\";\n          }\n          el.addEventListener\n            ? el.addEventListener(event, fn, false)\n            : el.attachEvent(\"on\" + event, fn);\n        };\n\n        el.all = function(selector){\n          return $(el.querySelectorAll(selector));\n        };\n\n        el.each = function(fn){\n          for (var i = 0, len = el.length; i < len; ++i) {\n            fn($(el[i]), i);\n          }\n        };\n\n        el.getClasses = function(){\n          return this.getAttribute('class').split(/\\s+/);\n        };\n\n        el.addClass = function(name){\n          var classes = this.getAttribute('class');\n          el.setAttribute('class', classes\n            ? classes + ' ' + name\n            : name);\n        };\n\n        el.removeClass = function(name){\n          var classes = this.getClasses().filter(function(curr){\n            return curr != name;\n          });\n          this.setAttribute('class', classes.join(' '));\n        };\n\n        return el;\n      }\n\n      function search() {\n        var str = $('search').value.toLowerCase();\n        var links = $('files').all('a');\n\n        links.each(function(link){\n          var text = link.textContent.toLowerCase();\n\n          if ('..' == text) return;\n          if (str.length && ~text.indexOf(str)) {\n            link.addClass('highlight');\n          } else {\n            link.removeClass('highlight');\n          }\n        });\n      }\n\n      $(window).on('content loaded', function(){\n        $('search').on('keyup', search);\n      });\n    </script>\n  </head>\n  <body class=\"directory\">\n    <input id=\"search\" type=\"text\" placeholder=\"Search\" autocomplete=\"off\" />\n    <div id=\"wrapper\">\n      <h1><a href=\".\">~</a> / <a href=\"\">ftp</a> / </h1>\n      <ul id=\"files\" class=\"view-tiles\"><li><a href=\"quarantine\" class=\"icon icon-directory\" title=\"quarantine\"><span class=\"name\">quarantine</span><span class=\"size\"></span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"acquisitions.md\" class=\"icon icon icon-md icon-text\" title=\"acquisitions.md\"><span class=\"name\">acquisitions.md</span><span class=\"size\">909</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"announcement_encrypted.md\" class=\"icon icon icon-md icon-text\" title=\"announcement_encrypted.md\"><span class=\"name\">announcement_encrypted.md</span><span class=\"size\">369237</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"coupons_2013.md.bak\" class=\"icon icon icon-bak icon-default\" title=\"coupons_2013.md.bak\"><span class=\"name\">coupons_2013.md.bak</span><span class=\"size\">131</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"eastere.gg\" class=\"icon icon icon-gg icon-default\" title=\"eastere.gg\"><span class=\"name\">eastere.gg</span><span class=\"size\">324</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"encrypt.pyc\" class=\"icon icon icon-pyc icon-default\" title=\"encrypt.pyc\"><span class=\"name\">encrypt.pyc</span><span class=\"size\">573</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"incident-support.kdbx\" class=\"icon icon icon-kdbx icon-default\" title=\"incident-support.kdbx\"><span class=\"name\">incident-support.kdbx</span><span class=\"size\">3310</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"legal.md\" class=\"icon icon icon-md icon-text\" title=\"legal.md\"><span class=\"name\">legal.md</span><span class=\"size\">3047</span><span class=\"date\">8/5/2020 5:28:46 PM</span></a></li>\n<li><a href=\"package.json.bak\" class=\"icon icon icon-bak icon-default\" title=\"package.json.bak\"><span class=\"name\">package.json.bak</span><span class=\"size\">4427</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li>\n<li><a href=\"suspicious_errors.yml\" class=\"icon icon icon-yml icon-text\" title=\"suspicious_errors.yml\"><span class=\"name\">suspicious_errors.yml</span><span class=\"size\">723</span><span class=\"date\">7/18/2020 11:50:49 PM</span></a></li></ul>\n    </div>\n  </body>\n</html>",
+        "time" : 0.387584,
+        "app_time" : 0.34731,
+        "total_time" : 0.387584,
+        "return_code" : "ok",
+        "return_message" : "No error",
+        "status_line" : "HTTP/1.1 200 OK"
+      },
+      "request" : {
+        "url" : "http://juice-box_juice-box_1:3000/ftp/",
+        "parameters" : {},
+        "headers" : {
+          "Accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent" : "Arachni/v1.5.1",
+          "Accept-Language" : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "4f8cad2845a907b2e77514ca2a36122f"
+        },
+        "headers_string" : "GET /ftp/ HTTP/1.1\r\nHost: juice-box_juice-box_1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: 4f8cad2845a907b2e77514ca2a36122f\r\n\r\n",
+        "effective_body" : null,
+        "body" : null,
+        "method" : "get"
+      }
+    },
+    {
+      "name" : "HTTP TRACE",
+      "description" : "\nThe `TRACE` HTTP method allows a client so send a request to the server, and\nhave the same request then send back in the server's response. This allows the\nclient to determine if the server is receiving the request as expected or if\nspecific parts of the request are not arriving as expected.\nFor example incorrect encoding or a load balancer has filtered or changed a value.\nOn many default installations the `TRACE` method is still enabled.\n\nWhile not vulnerable by itself, it does provide a method for cyber-criminals to\nbypass the `HTTPOnly` cookie flag, and therefore could allow a XSS attack to\nsuccessfully access a session token.\n\nArachni has discovered that the affected page permits the HTTP `TRACE` method.\n",
+      "references" : {
+        "CAPEC" : "http://capec.mitre.org/data/definitions/107.html",
+        "OWASP" : "http://www.owasp.org/index.php/Cross_Site_Tracing"
+      },
+      "cwe" : 693,
+      "severity" : "medium",
+      "remedy_guidance" : "\nThe HTTP `TRACE` method is normally not required within production sites and\nshould therefore be disabled.\n\nDepending on the function being performed by the web application, the risk\nlevel can start low and increase as more functionality is implemented.\n\nThe remediation is typically a very simple configuration change and in most cases\nwill not have any negative impact on the server or application.\n",
+      "check" : {
+        "name" : "XST",
+        "description" : "Sends an HTTP TRACE request and checks if it succeeded.",
+        "elements" : [
+          "server"
+        ],
+        "author" : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+        "version" : "0.1.8",
+        "shortname" : "xst"
+      },
+      "vector" : {
+        "class" : "Arachni::Element::Server",
+        "type" : "server",
+        "url" : "http://juice-box_juice-box_1:3000/",
+        "affected_input_name" : null
+      },
+      "referring_page" : {
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page" : {
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks" : {},
+      "trusted" : true,
+      "tags" : [
+        "xst",
+        "methods",
+        "trace",
+        "server"
+      ],
+      "digest" : 751010727,
+      "proof" : "HTTP/1.1 200 OK",
+      "cwe_url" : "http://cwe.mitre.org/data/definitions/693.html",
+      "response" : {
+        "headers" : {
+          "Access-Control-Allow-Origin" : "*",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options" : "SAMEORIGIN",
+          "Feature-Policy" : "payment 'self'",
+          "Accept-Ranges" : "bytes",
+          "Cache-Control" : "public, max-age=0",
+          "Last-Modified" : "Wed, 05 Aug 2020 17:28:48 GMT",
+          "Etag" : "W/\"785-173bfab1bd2\"",
+          "Content-Type" : "text/html; charset=UTF-8",
+          "Vary" : "Accept-Encoding",
+          "Content-Encoding" : "gzip",
+          "Date" : "Thu, 06 Aug 2020 19:09:20 GMT",
+          "Connection" : "keep-alive",
+          "Transfer-Encoding" : "chunked"
+        },
+        "url" : "http://juice-box_juice-box_1:3000/",
+        "code" : 200,
+        "ip_address" : "172.19.0.2",
+        "headers_string" : "HTTP/1.1 200 OK\r\nAccess-Control-Allow-Origin: *\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nFeature-Policy: payment 'self'\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Wed, 05 Aug 2020 17:28:48 GMT\r\nETag: W/\"785-173bfab1bd2\"\r\nContent-Type: text/html; charset=UTF-8\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Thu, 06 Aug 2020 19:09:20 GMT\r\nConnection: keep-alive\r\nTransfer-Encoding: chunked\r\n\r\n",
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "time" : 0.208185,
+        "app_time" : 0.197129,
+        "total_time" : 0.208185,
+        "return_code" : "ok",
+        "return_message" : "No error",
+        "status_line" : "HTTP/1.1 200 OK"
+      },
+      "request" : {
+        "url" : "http://juice-box_juice-box_1:3000/",
+        "parameters" : {},
+        "headers" : {
+          "Accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent" : "Arachni/v1.5.1",
+          "Accept-Language" : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "4f8cad2845a907b2e77514ca2a36122f"
+        },
+        "headers_string" : "TRACE / HTTP/1.1\r\nHost: juice-box_juice-box_1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: 4f8cad2845a907b2e77514ca2a36122f\r\n\r\n",
+        "effective_body" : null,
+        "body" : null,
+        "method" : "trace"
+      }
+    },
+    {
+      "name" : "Common sensitive file",
+      "description" : "\nWeb applications are often made up of multiple files and directories.\n\nIt is possible that over time some files may become unreferenced (unused)\nby the web application and forgotten about by the administrator/developer.\nBecause web applications are built using common frameworks, they contain common\nfiles that can be discovered (independent of server).\n\nDuring the initial recon stages of an attack, cyber-criminals will attempt to\nlocate unreferenced files in the hope that the file will assist in further\ncompromise of the web application.\nTo achieve this they will make thousands of requests using word lists containing\ncommon filenames.\nThe response headers from the server will then indicate if the file exists.\n\nArachni also contains a list of common file names which it will attempt to access.\n",
+      "references" : {
+        "Apache.org" : "http://httpd.apache.org/docs/2.0/mod/mod_access.html"
+      },
+      "severity" : "low",
+      "remedy_guidance" : "\nIf files are unreferenced then they should be removed from the web root\nand/or the application directory.\n\nPreventing access without authentication may also be an option and can stop a\nclient from being able to view the contents of a file, however it is still likely\nthat the directory structure will be able to be discovered.\n\nUsing obscure file names is implementing security through obscurity and is\nnot a recommended option.\n",
+      "check" : {
+        "name" : "Common files",
+        "description" : "Tries to find common sensitive files on the server.",
+        "elements" : [
+          "server"
+        ],
+        "author" : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version" : "0.2.4",
+        "exempt_platforms" : [
+          "rack",
+          "rails",
+          "cakephp",
+          "symfony",
+          "nette",
+          "django",
+          "aspx_mvc",
+          "jsf",
+          "cherrypy"
+        ],
+        "shortname" : "common_files"
+      },
+      "vector" : {
+        "class" : "Arachni::Element::Server",
+        "type" : "server",
+        "url" : "http://juice-box_juice-box_1:3000/robots.txt",
+        "affected_input_name" : null
+      },
+      "referring_page" : {
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page" : {
+        "body" : "User-agent: *\nDisallow: /ftp",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/robots.txt",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks" : {},
+      "trusted" : true,
+      "tags" : [
+        "common",
+        "path",
+        "file",
+        "discovery"
+      ],
+      "digest" : 3249990285,
+      "proof" : "HTTP/1.1 200 OK",
+      "response" : {
+        "headers" : {
+          "Access-Control-Allow-Origin" : "*",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options" : "SAMEORIGIN",
+          "Feature-Policy" : "payment 'self'",
+          "Content-Type" : "text/plain; charset=utf-8",
+          "Content-Length" : "28",
+          "Etag" : "W/\"1c-8HgF6mNyhsSFK0pascC9uB0wjX0\"",
+          "Vary" : "Accept-Encoding",
+          "Date" : "Thu, 06 Aug 2020 19:09:11 GMT",
+          "Connection" : "keep-alive"
+        },
+        "url" : "http://juice-box_juice-box_1:3000/robots.txt",
+        "code" : 200,
+        "ip_address" : "172.19.0.2",
+        "headers_string" : "HTTP/1.1 200 OK\r\nAccess-Control-Allow-Origin: *\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nFeature-Policy: payment 'self'\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 28\r\nETag: W/\"1c-8HgF6mNyhsSFK0pascC9uB0wjX0\"\r\nVary: Accept-Encoding\r\nDate: Thu, 06 Aug 2020 19:09:11 GMT\r\nConnection: keep-alive\r\n\r\n",
+        "body" : "User-agent: *\nDisallow: /ftp",
+        "time" : 0.021552,
+        "app_time" : 0.020618,
+        "total_time" : 0.021552,
+        "return_code" : "ok",
+        "return_message" : "No error",
+        "status_line" : "HTTP/1.1 200 OK"
+      },
+      "request" : {
+        "url" : "http://juice-box_juice-box_1:3000/robots.txt",
+        "parameters" : {},
+        "headers" : {
+          "Accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent" : "Arachni/v1.5.1",
+          "Accept-Language" : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "4f8cad2845a907b2e77514ca2a36122f"
+        },
+        "headers_string" : "GET /robots.txt HTTP/1.1\r\nHost: juice-box_juice-box_1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: 4f8cad2845a907b2e77514ca2a36122f\r\n\r\n",
+        "effective_body" : null,
+        "body" : null,
+        "method" : "get"
+      }
+    },
+    {
+      "name" : "Insecure 'Access-Control-Allow-Origin' header",
+      "description" : "\n_Cross Origin Resource Sharing (CORS)_ is an HTML5 technology which gives modern\nweb browsers the ability to bypass restrictions implemented by the _Same Origin Policy_.\nThe _Same Origin Policy_ requires that both the JavaScript and the page are loaded\nfrom the same domain in order to allow JavaScript to interact with the page. This\nin turn prevents malicious JavaScript being executed when loaded from external domains.\n\nThe CORS policy allows the application to specify exceptions to the protections\nimplemented by the browser, and allows the developer to whitelist domains for\nwhich external JavaScript is permitted to execute and interact with the page.\n\nA weak CORS policy is one which whitelists all domains using a wildcard (`*`),\nwhich will allow any externally loaded JavaScript resource to interact with the\naffected page. This can severely increase the risk of attacks such as Cross Site Scripting etc.\n\nArachni detected that the CORS policy being set by the server was weak, and used\na wildcard value. This is evident by the `Access-Control-Allow-Origin` header being set to `*`.\n",
+      "references" : {
+        "OWASP" : "https://www.owasp.org/index.php/CORS_OriginHeaderScrutiny",
+        "Mozilla Developer Network" : "https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS"
+      },
+      "severity" : "low",
+      "remedy_guidance" : "\nIt is important that weak CORS policies are not used. Policies can be hardened by\nremoving the wildcard and individually specifying the domains where the trusted\nJavaScript resources are located. If the list of hosts for externally hosted\nJavaScript resources is excessive, then a whole top level domain can be whitelisted\nby using a combination of the wildcard and the domain (example: `*.arachni-scanner.com`).\n",
+      "check" : {
+        "name" : "Insecure CORS policy",
+        "description" : "Checks the host for a wildcard (`*`) `Access-Control-Allow-Origin` header.",
+        "author" : "Tasos Laskos <tasos.laskos@arachni-scanner.com>",
+        "version" : "0.1.1",
+        "elements" : [
+          "server"
+        ],
+        "shortname" : "insecure_cors_policy"
+      },
+      "vector" : {
+        "class" : "Arachni::Element::Server",
+        "type" : "server",
+        "url" : "http://juice-box_juice-box_1:3000/",
+        "affected_input_name" : null
+      },
+      "referring_page" : {
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page" : {
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "dom" : {
+          "url" : "http://juice-box_juice-box_1:3000/",
+          "transitions" : [],
+          "cookies" : [],
+          "digest" : null,
+          "data_flow_sinks" : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks" : {},
+      "trusted" : true,
+      "tags" : [],
+      "digest" : 845369017,
+      "proof" : "Access-Control-Allow-Origin: *\r",
+      "response" : {
+        "headers" : {
+          "Access-Control-Allow-Origin" : "*",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options" : "SAMEORIGIN",
+          "Feature-Policy" : "payment 'self'",
+          "Accept-Ranges" : "bytes",
+          "Cache-Control" : "public, max-age=0",
+          "Last-Modified" : "Wed, 05 Aug 2020 17:28:48 GMT",
+          "Etag" : "W/\"785-173bfab1bd2\"",
+          "Content-Type" : "text/html; charset=UTF-8",
+          "Vary" : "Accept-Encoding",
+          "Content-Encoding" : "gzip",
+          "Date" : "Thu, 06 Aug 2020 19:08:54 GMT",
+          "Connection" : "keep-alive",
+          "Transfer-Encoding" : "chunked"
+        },
+        "url" : "http://juice-box_juice-box_1:3000/",
+        "code" : 200,
+        "ip_address" : "172.19.0.2",
+        "headers_string" : "HTTP/1.1 200 OK\r\nAccess-Control-Allow-Origin: *\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nFeature-Policy: payment 'self'\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Wed, 05 Aug 2020 17:28:48 GMT\r\nETag: W/\"785-173bfab1bd2\"\r\nContent-Type: text/html; charset=UTF-8\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nDate: Thu, 06 Aug 2020 19:08:54 GMT\r\nConnection: keep-alive\r\nTransfer-Encoding: chunked\r\n\r\n",
+        "body" : "<!--\n  ~ Copyright (c) 2014-2020 Bjoern Kimminich.\n  ~ SPDX-License-Identifier: MIT\n  -->\n\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>OWASP Juice Shop</title>\n  <meta name=\"description\" content=\"Probably the most modern and sophisticated insecure web application\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link id=\"favicon\" rel=\"icon\" type=\"image/x-icon\" href=\"assets/public/favicon_js.ico\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css\" />\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>\n  <script>\n    window.addEventListener(\"load\", function(){\n      window.cookieconsent.initialise({\n        \"palette\": {\n          \"popup\": { \"background\": \"#546e7a\", \"text\": \"#ffffff\" },\n          \"button\": { \"background\": \"#558b2f\", \"text\": \"#ffffff\" }\n        },\n        \"theme\": \"classic\",\n        \"position\": \"bottom-right\",\n        \"content\": { \"message\": \"This website uses fruit cookies to ensure you get the juiciest tracking experience.\", \"dismiss\": \"Me want it!\", \"link\": \"But me wait!\", \"href\": \"https://www.youtube.com/watch?v=9PnbKL3wuH4\" }\n      })});\n  </script>\n<link rel=\"stylesheet\" href=\"styles.css\"></head>\n<body class=\"mat-app-background bluegrey-lightgreen-theme\">\n  <app-root></app-root>\n<script src=\"runtime-es2015.js\" type=\"module\"></script><script src=\"runtime-es5.js\" nomodule defer></script><script src=\"polyfills-es5.js\" nomodule defer></script><script src=\"polyfills-es2015.js\" type=\"module\"></script><script src=\"vendor-es2015.js\" type=\"module\"></script><script src=\"vendor-es5.js\" nomodule defer></script><script src=\"main-es2015.js\" type=\"module\"></script><script src=\"main-es5.js\" nomodule defer></script></body>\n</html>\n",
+        "time" : 0.039524,
+        "app_time" : 0.029338,
+        "total_time" : 0.039524,
+        "return_code" : "ok",
+        "return_message" : "No error"
+      },
+      "request" : {
+        "url" : "http://juice-box_juice-box_1:3000/",
+        "parameters" : {},
+        "headers" : {
+          "Accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent" : "Arachni/v1.5.1",
+          "Accept-Language" : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "4f8cad2845a907b2e77514ca2a36122f"
+        },
+        "headers_string" : "GET / HTTP/1.1\r\nHost: juice-box_juice-box_1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: 4f8cad2845a907b2e77514ca2a36122f\r\n\r\n",
+        "effective_body" : null,
+        "body" : null,
+        "method" : "get"
+      }
+    }
+  ],
+  "plugins" : {
+    "healthmap" : {
+      "name" : "Health map",
+      "description" : "Generates a simple list of safe/unsafe URLs.",
+      "author" : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+      "version" : "0.1.5",
+      "results" : {
+        "map" : [
+          {
+            "with_issues" : "http://juice-box_juice-box_1:3000/"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/assets/public/favicon_js.ico"
+          },
+          {
+            "with_issues" : "http://juice-box_juice-box_1:3000/ftp/"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/main-es2015.js"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/main-es5.js"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/polyfills-es2015.js"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/polyfills-es5.js"
+          },
+          {
+            "with_issues" : "http://juice-box_juice-box_1:3000/robots.txt"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/runtime-es2015.js"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/runtime-es5.js"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/styles.css"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/vendor-es2015.js"
+          },
+          {
+            "without_issues" : "http://juice-box_juice-box_1:3000/vendor-es5.js"
+          }
+        ],
+        "total" : 13,
+        "without_issues" : 10,
+        "with_issues" : 3,
+        "issue_percentage" : 23
+      }
+    }
+  }
+}

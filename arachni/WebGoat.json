@@ -1,0 +1,1181 @@
+{
+  "version"         : "1.5.1",
+  "seed"            : "b7e54f797077273bd1d2cda059090293",
+  "options"         : {
+    "input"             : {
+      "values"           : {
+        "name"    : "arachni_name",
+        "user"    : "arachni_user",
+        "usr"     : "arachni_user",
+        "pass"    : "5543!%arachni_secret",
+        "txt"     : "arachni_text",
+        "num"     : "132",
+        "amount"  : "100",
+        "mail"    : "arachni@email.gr",
+        "account" : "12",
+        "id"      : "1"
+      },
+      "default_values"   : {
+        "name"    : "arachni_name",
+        "user"    : "arachni_user",
+        "usr"     : "arachni_user",
+        "pass"    : "5543!%arachni_secret",
+        "txt"     : "arachni_text",
+        "num"     : "132",
+        "amount"  : "100",
+        "mail"    : "arachni@email.gr",
+        "account" : "12",
+        "id"      : "1"
+      },
+      "without_defaults" : true,
+      "force"            : false
+    },
+    "scope"             : {
+      "redundant_path_patterns"  : {},
+      "dom_depth_limit"          : 5,
+      "exclude_file_extensions"  : [
+        "[]"
+      ],
+      "exclude_path_patterns"    : [],
+      "exclude_content_patterns" : [],
+      "include_path_patterns"    : [],
+      "restrict_paths"           : [],
+      "extend_paths"             : [],
+      "url_rewrites"             : {}
+    },
+    "session"           : {},
+    "http"              : {
+      "user_agent"             : "Arachni/v1.5.1",
+      "request_timeout"        : 10000,
+      "request_redirect_limit" : 5,
+      "request_concurrency"    : 20,
+      "request_queue_size"     : 100,
+      "request_headers"        : {},
+      "response_max_size"      : 500000,
+      "cookies"                : {},
+      "authentication_type"    : "auto"
+    },
+    "browser_cluster"   : {
+      "local_storage"       : {},
+      "wait_for_elements"   : {},
+      "pool_size"           : 6,
+      "job_timeout"         : 10,
+      "worker_time_to_live" : 100,
+      "ignore_images"       : false,
+      "screen_width"        : 1600,
+      "screen_height"       : 1200
+    },
+    "audit"             : {
+      "parameter_values"        : true,
+      "exclude_vector_patterns" : [],
+      "include_vector_patterns" : [],
+      "link_templates"          : [],
+      "links"                   : true,
+      "forms"                   : true,
+      "cookies"                 : true,
+      "jsons"                   : true,
+      "xmls"                    : true,
+      "ui_forms"                : true,
+      "ui_inputs"               : true
+    },
+    "datastore"         : {
+      "token" : "77aa218f184c8d6523f384edb24ca527"
+    },
+    "checks"            : [
+      "allowed_methods",
+      "backdoors",
+      "backup_directories",
+      "backup_files",
+      "captcha",
+      "code_injection",
+      "code_injection_php_input_wrapper",
+      "code_injection_timing",
+      "common_admin_interfaces",
+      "common_directories",
+      "common_files",
+      "cookie_set_for_parent_domain",
+      "credit_card",
+      "csrf",
+      "cvs_svn_users",
+      "directory_listing",
+      "emails",
+      "file_inclusion",
+      "form_upload",
+      "hsts",
+      "htaccess_limit",
+      "html_objects",
+      "http_only_cookies",
+      "http_put",
+      "insecure_client_access_policy",
+      "insecure_cookies",
+      "insecure_cors_policy",
+      "insecure_cross_domain_policy_access",
+      "insecure_cross_domain_policy_headers",
+      "interesting_responses",
+      "ldap_injection",
+      "localstart_asp",
+      "mixed_resource",
+      "no_sql_injection",
+      "no_sql_injection_differential",
+      "origin_spoof_access_restriction_bypass",
+      "os_cmd_injection",
+      "os_cmd_injection_timing",
+      "password_autocomplete",
+      "path_traversal",
+      "private_ip",
+      "response_splitting",
+      "rfi",
+      "session_fixation",
+      "source_code_disclosure",
+      "sql_injection",
+      "sql_injection_differential",
+      "sql_injection_timing",
+      "ssn",
+      "trainer",
+      "unencrypted_password_forms",
+      "unvalidated_redirect",
+      "unvalidated_redirect_dom",
+      "webdav",
+      "x_frame_options",
+      "xpath_injection",
+      "xss",
+      "xss_dom",
+      "xss_dom_script_context",
+      "xss_event",
+      "xss_path",
+      "xss_script_context",
+      "xss_tag",
+      "xst",
+      "xxe"
+    ],
+    "platforms"         : [],
+    "plugins"           : {
+      "autothrottle"   : {},
+      "discovery"      : {},
+      "healthmap"      : {},
+      "timing_attacks" : {},
+      "uniformity"     : {}
+    },
+    "no_fingerprinting" : false,
+    "authorized_by"     : null,
+    "url"               : "http://192.168.0.18:8080/WebGoat/"
+  },
+  "sitemap"         : {
+    "http://192.168.0.18:8080/WebGoat/"                                        : 302,
+    "http://192.168.0.18:8080/WebGoat/login"                                   : 200,
+    "http://192.168.0.18:8080/WebGoat/login?error"                             : 200,
+    "http://192.168.0.18:8080/WebGoat/start.mvc"                               : 302,
+    "http://192.168.0.18:8080/WebGoat/registration"                            : 200,
+    "http://192.168.0.18:8080/WebGoat/register.mvc"                            : 405,
+    "http://192.168.0.18:8080/WebGoat/css/font-awesome.min.css"                : 200,
+    "http://192.168.0.18:8080/WebGoat/css/main.css"                            : 200,
+    "http://192.168.0.18:8080/WebGoat/css/animate.css"                         : 200,
+    "http://192.168.0.18:8080/WebGoat/plugins/bootstrap/css/bootstrap.min.css" : 200
+  },
+  "start_datetime"  : "2020-08-06 19:02:02 +0000",
+  "finish_datetime" : "2020-08-06 19:03:51 +0000",
+  "delta_time"      : "00:01:49",
+  "issues"          : [
+    {
+      "name"            : "Cross-Site Request Forgery",
+      "description"     : "\nIn the majority of today's web applications, clients are required to submit forms\nwhich can perform sensitive operations.\n\nAn example of such a form being used would be when an administrator wishes to\ncreate a new user for the application.\n\nIn the simplest version of the form, the administrator would fill-in:\n\n* Name\n* Password\n* Role (level of access)\n\nContinuing with this example, Cross Site Request Forgery (CSRF) would occur when\nthe administrator is tricked into clicking on a link, which if logged into the\napplication, would automatically submit the form without any further interaction.\n\nCyber-criminals will look for sites where sensitive functions are performed in\nthis manner and then craft malicious requests that will be used against clients\nvia a social engineering attack.\n\nThere are 3 things that are required for a CSRF attack to occur:\n\n1. The form must perform some sort of sensitive action.\n2. The victim (the administrator the example above) must have an active session.\n3. Most importantly, all parameter values must be **known** or **guessable**.\n\nArachni discovered that all parameters within the form were known or predictable\nand therefore the form could be vulnerable to CSRF.\n\n_Manual verification may be required to check whether the submission will then\nperform a sensitive action, such as reset a password, modify user profiles, post\ncontent on a forum, etc._\n",
+      "references"      : {
+        "Wikipedia"    : "http://en.wikipedia.org/wiki/Cross-site_request_forgery",
+        "OWASP"        : "https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)",
+        "CGI Security" : "http://www.cgisecurity.com/csrf-faq.html"
+      },
+      "cwe"             : 352,
+      "severity"        : "high",
+      "remedy_guidance" : "\nBased on the risk (determined by manual verification) of whether the form submission\nperforms a sensitive action, the addition of anti-CSRF tokens may be required.\n\nThese tokens can be configured in such a way that each session generates a new\nanti-CSRF token or such that each individual request requires a new token.\n\nIt is important that the server track and maintain the status of each token (in\norder to reject requests accompanied by invalid ones) and therefore prevent\ncyber-criminals from knowing, guessing or reusing them.\n\n_For examples of framework specific remediation options, please refer to the references._\n",
+      "check"           : {
+        "name"        : "CSRF",
+        "description" : "\nIt uses differential analysis to determine which forms affect business logic and\nchecks them for lack of anti-CSRF tokens.\n\n(Works best with a valid session.)\n",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version"     : "0.4",
+        "shortname"   : "csrf"
+      },
+      "vector"          : {
+        "class"               : "Arachni::Element::Form",
+        "type"                : "form",
+        "url"                 : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "source"              : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group has-error\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\">\n      </input>\n    </div>\n  </div>\n</form>",
+        "inputs"              : {
+          "username" : "_arachni_trainer_b7e54f797077273bd1d2cda059090293"
+        },
+        "raw_inputs"          : [],
+        "default_inputs"      : {
+          "username" : "_arachni_trainer_b7e54f797077273bd1d2cda059090293"
+        },
+        "action"              : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "method"              : "post",
+        "affected_input_name" : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group has-error\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>can only contain lowercase letters, digits, and -<br />size must be between 6 and 45</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"5543!%arachni_secret\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"5543!%arachni_secret\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/register.mvc",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group has-error\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>can only contain lowercase letters, digits, and -<br />size must be between 6 and 45</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"5543!%arachni_secret\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"5543!%arachni_secret\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/register.mvc",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [
+        "csrf",
+        "rdiff",
+        "form",
+        "token"
+      ],
+      "digest"          : 1111417736,
+      "proof"           : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group has-error\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\">\n      </input>\n    </div>\n  </div>\n</form>",
+      "cwe_url"         : "http://cwe.mitre.org/data/definitions/352.html",
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:46 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:46 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group has-error\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>can only contain lowercase letters, digits, and -<br />size must be between 6 and 45</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"5543!%arachni_secret\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"5543!%arachni_secret\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.137084,
+        "app_time"       : 0.127664,
+        "total_time"     : 0.137084,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "headers_string" : "POST /WebGoat/register.mvc HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1\r\nContent-Length: 149\r\nContent-Type: application/x-www-form-urlencoded\r\n\r\n",
+        "effective_body" : "username=_arachni_trainer_b7e54f797077273bd1d2cda059090293%00&password=5543%21%25arachni_secret&matchingPassword=5543%21%25arachni_secret&agree=agree",
+        "body"           : {
+          "username"         : "_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000",
+          "password"         : "5543!%arachni_secret",
+          "matchingPassword" : "5543!%arachni_secret",
+          "agree"            : "agree"
+        },
+        "method"         : "post"
+      }
+    },
+    {
+      "name"            : "Unencrypted password form",
+      "description"     : "\nThe HTTP protocol by itself is clear text, meaning that any data that is\ntransmitted via HTTP can be captured and the contents viewed.\n\nTo keep data private, and prevent it from being intercepted, HTTP is often\ntunnelled through either Secure Sockets Layer (SSL), or Transport Layer Security\n(TLS).\nWhen either of these encryption standards are used it is referred to as HTTPS.\n\nCyber-criminals will often attempt to compromise credentials passed from the\nclient to the server using HTTP.\nThis can be conducted via various different Man-in-The-Middle (MiTM) attacks or\nthrough network packet captures.\n\nArachni discovered that the affected page contains a `password` input, however,\nthe value of the field is not sent to the server utilising HTTPS. Therefore it\nis possible that any submitted credential may become compromised.\n",
+      "references"      : {
+        "OWASP Top 10 2010" : "http://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection"
+      },
+      "cwe"             : 319,
+      "severity"        : "medium",
+      "remedy_guidance" : "\nThe affected site should be secured utilising the latest and most secure encryption\nprotocols.\nThese include SSL version 3.0 and TLS version 1.2. While TLS 1.2 is the latest\nand the most preferred protocol, not all browsers will support this encryption\nmethod. Therefore, the more common SSL is included. Older protocols such as SSL\nversion 2, and weak ciphers (< 128 bit) should also be disabled.\n",
+      "check"           : {
+        "name"        : "Unencrypted password forms",
+        "description" : "Looks for password inputs that don't submit data\n                over an encrypted channel (HTTPS).",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version"     : "0.2.2",
+        "shortname"   : "unencrypted_password_forms"
+      },
+      "vector"          : {
+        "class"                : "Arachni::Element::Form",
+        "type"                 : "form",
+        "url"                  : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "source"               : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group has-error\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"arachni_name\">\n      </input>\n    </div>\n    <span>\n      can only contain lowercase letters, digits, and -\n    </span>\n  </div>\n  <div class=\"form-group has-error\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\">\n      </input>\n    </div>\n  </div>\n</form>",
+        "inputs"               : {
+          "username" : "arachni_name",
+          "password" : "_arachni_trainer_b7e54f797077273bd1d2cda059090293"
+        },
+        "raw_inputs"           : [],
+        "default_inputs"       : {
+          "username" : "arachni_name",
+          "password" : "_arachni_trainer_b7e54f797077273bd1d2cda059090293"
+        },
+        "action"               : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "method"               : "post",
+        "affected_input_name"  : null,
+        "affected_input_value" : "_arachni_trainer_b7e54f797077273bd1d2cda059090293",
+        "seed"                 : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group has-error\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"arachni_name\"/>\n                        </div>\n                        <span>can only contain lowercase letters, digits, and -</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/register.mvc",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group has-error\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"arachni_name\"/>\n                        </div>\n                        <span>can only contain lowercase letters, digits, and -</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/register.mvc",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [
+        "unencrypted",
+        "password",
+        "form"
+      ],
+      "digest"          : 1182764340,
+      "proof"           : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group has-error\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"arachni_name\">\n      </input>\n    </div>\n    <span>\n      can only contain lowercase letters, digits, and -\n    </span>\n  </div>\n  <div class=\"form-group has-error\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\">\n      </input>\n    </div>\n  </div>\n</form>",
+      "cwe_url"         : "http://cwe.mitre.org/data/definitions/319.html",
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:46 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:46 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group has-error\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"arachni_name\"/>\n                        </div>\n                        <span>can only contain lowercase letters, digits, and -</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n                    </div>\n                    <div class=\"form-group has-error\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000\"/>\n                        </div>\n                        <span>size must be between 6 and 10</span>\n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.163024,
+        "app_time"       : 0.160958,
+        "total_time"     : 0.163024,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "headers_string" : "POST /WebGoat/register.mvc HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1\r\nContent-Length: 165\r\nContent-Type: application/x-www-form-urlencoded\r\n\r\n",
+        "effective_body" : "username=arachni_name&password=_arachni_trainer_b7e54f797077273bd1d2cda059090293%00&matchingPassword=_arachni_trainer_b7e54f797077273bd1d2cda059090293%00&agree=agree",
+        "body"           : {
+          "username"         : "arachni_name",
+          "password"         : "_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000",
+          "matchingPassword" : "_arachni_trainer_b7e54f797077273bd1d2cda059090293\u0000",
+          "agree"            : "agree"
+        },
+        "method"         : "post"
+      }
+    },
+    {
+      "name"            : "Unencrypted password form",
+      "description"     : "\nThe HTTP protocol by itself is clear text, meaning that any data that is\ntransmitted via HTTP can be captured and the contents viewed.\n\nTo keep data private, and prevent it from being intercepted, HTTP is often\ntunnelled through either Secure Sockets Layer (SSL), or Transport Layer Security\n(TLS).\nWhen either of these encryption standards are used it is referred to as HTTPS.\n\nCyber-criminals will often attempt to compromise credentials passed from the\nclient to the server using HTTP.\nThis can be conducted via various different Man-in-The-Middle (MiTM) attacks or\nthrough network packet captures.\n\nArachni discovered that the affected page contains a `password` input, however,\nthe value of the field is not sent to the server utilising HTTPS. Therefore it\nis possible that any submitted credential may become compromised.\n",
+      "references"      : {
+        "OWASP Top 10 2010" : "http://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection"
+      },
+      "cwe"             : 319,
+      "severity"        : "medium",
+      "remedy_guidance" : "\nThe affected site should be secured utilising the latest and most secure encryption\nprotocols.\nThese include SSL version 3.0 and TLS version 1.2. While TLS 1.2 is the latest\nand the most preferred protocol, not all browsers will support this encryption\nmethod. Therefore, the more common SSL is included. Older protocols such as SSL\nversion 2, and weak ciphers (< 128 bit) should also be disabled.\n",
+      "check"           : {
+        "name"        : "Unencrypted password forms",
+        "description" : "Looks for password inputs that don't submit data\n                over an encrypted channel (HTTPS).",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version"     : "0.2.2",
+        "shortname"   : "unencrypted_password_forms"
+      },
+      "vector"          : {
+        "class"                : "Arachni::Element::Form",
+        "type"                 : "form",
+        "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+        "source"               : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">\n      Confirm password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\" name=\"matchingPassword\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label class=\"col-sm-2 control-label\">\n      Terms of use\n    </label>\n    <div class=\"col-sm-6\">\n      <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n        <p>\n          While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n        </p>\n        <p>\n          This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n        </p>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-6 col-sm-offset-2\">\n      <div class=\"checkbox\">\n        <label>\n          <input type=\"checkbox\" name=\"agree\" value=\"agree\">\n          </input>\n          Agree with the terms and\n                                    conditions\n        </label>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-6\">\n      <button type=\"submit\" class=\"btn btn-primary\">\n        Sign up\n      </button>\n    </div>\n  </div>\n</form>",
+        "inputs"               : {
+          "username"         : "",
+          "password"         : "",
+          "matchingPassword" : "",
+          "agree"            : "agree"
+        },
+        "raw_inputs"           : [],
+        "default_inputs"       : {
+          "username"         : "",
+          "password"         : "",
+          "matchingPassword" : "",
+          "agree"            : "agree"
+        },
+        "action"               : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "method"               : "post",
+        "affected_input_name"  : null,
+        "affected_input_value" : "",
+        "seed"                 : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [
+        "unencrypted",
+        "password",
+        "form"
+      ],
+      "digest"          : 454508666,
+      "proof"           : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">\n      Confirm password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\" name=\"matchingPassword\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label class=\"col-sm-2 control-label\">\n      Terms of use\n    </label>\n    <div class=\"col-sm-6\">\n      <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n        <p>\n          While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n        </p>\n        <p>\n          This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n        </p>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-6 col-sm-offset-2\">\n      <div class=\"checkbox\">\n        <label>\n          <input type=\"checkbox\" name=\"agree\" value=\"agree\">\n          </input>\n          Agree with the terms and\n                                    conditions\n        </label>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-6\">\n      <button type=\"submit\" class=\"btn btn-primary\">\n        Sign up\n      </button>\n    </div>\n  </div>\n</form>",
+      "cwe_url"         : "http://cwe.mitre.org/data/definitions/319.html",
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:29 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/registration",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:29 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.043715,
+        "app_time"       : 0.043075,
+        "total_time"     : 0.043715,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/registration",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "headers_string" : "GET /WebGoat/registration HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    },
+    {
+      "name"            : "Unencrypted password form",
+      "description"     : "\nThe HTTP protocol by itself is clear text, meaning that any data that is\ntransmitted via HTTP can be captured and the contents viewed.\n\nTo keep data private, and prevent it from being intercepted, HTTP is often\ntunnelled through either Secure Sockets Layer (SSL), or Transport Layer Security\n(TLS).\nWhen either of these encryption standards are used it is referred to as HTTPS.\n\nCyber-criminals will often attempt to compromise credentials passed from the\nclient to the server using HTTP.\nThis can be conducted via various different Man-in-The-Middle (MiTM) attacks or\nthrough network packet captures.\n\nArachni discovered that the affected page contains a `password` input, however,\nthe value of the field is not sent to the server utilising HTTPS. Therefore it\nis possible that any submitted credential may become compromised.\n",
+      "references"      : {
+        "OWASP Top 10 2010" : "http://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection"
+      },
+      "cwe"             : 319,
+      "severity"        : "medium",
+      "remedy_guidance" : "\nThe affected site should be secured utilising the latest and most secure encryption\nprotocols.\nThese include SSL version 3.0 and TLS version 1.2. While TLS 1.2 is the latest\nand the most preferred protocol, not all browsers will support this encryption\nmethod. Therefore, the more common SSL is included. Older protocols such as SSL\nversion 2, and weak ciphers (< 128 bit) should also be disabled.\n",
+      "check"           : {
+        "name"        : "Unencrypted password forms",
+        "description" : "Looks for password inputs that don't submit data\n                over an encrypted channel (HTTPS).",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version"     : "0.2.2",
+        "shortname"   : "unencrypted_password_forms"
+      },
+      "vector"          : {
+        "class"                : "Arachni::Element::Form",
+        "type"                 : "form",
+        "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+        "source"               : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">\n      Confirm password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\" name=\"matchingPassword\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label class=\"col-sm-2 control-label\">\n      Terms of use\n    </label>\n    <div class=\"col-sm-6\">\n      <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n        <p>\n          While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n        </p>\n        <p>\n          This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n        </p>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-6 col-sm-offset-2\">\n      <div class=\"checkbox\">\n        <label>\n          <input type=\"checkbox\" name=\"agree\" value=\"agree\">\n          </input>\n          Agree with the terms and\n                                    conditions\n        </label>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-6\">\n      <button type=\"submit\" class=\"btn btn-primary\">\n        Sign up\n      </button>\n    </div>\n  </div>\n</form>",
+        "inputs"               : {
+          "username"         : "",
+          "password"         : "",
+          "matchingPassword" : "",
+          "agree"            : "agree"
+        },
+        "raw_inputs"           : [],
+        "default_inputs"       : {
+          "username"         : "",
+          "password"         : "",
+          "matchingPassword" : "",
+          "agree"            : "agree"
+        },
+        "action"               : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "method"               : "post",
+        "affected_input_name"  : null,
+        "affected_input_value" : "",
+        "seed"                 : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [
+        "unencrypted",
+        "password",
+        "form"
+      ],
+      "digest"          : 3230552842,
+      "proof"           : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">\n      Confirm password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\" name=\"matchingPassword\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label class=\"col-sm-2 control-label\">\n      Terms of use\n    </label>\n    <div class=\"col-sm-6\">\n      <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n        <p>\n          While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n        </p>\n        <p>\n          This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n        </p>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-6 col-sm-offset-2\">\n      <div class=\"checkbox\">\n        <label>\n          <input type=\"checkbox\" name=\"agree\" value=\"agree\">\n          </input>\n          Agree with the terms and\n                                    conditions\n        </label>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-6\">\n      <button type=\"submit\" class=\"btn btn-primary\">\n        Sign up\n      </button>\n    </div>\n  </div>\n</form>",
+      "cwe_url"         : "http://cwe.mitre.org/data/definitions/319.html",
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:29 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/registration",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:29 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.043715,
+        "app_time"       : 0.043075,
+        "total_time"     : 0.043715,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/registration",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "headers_string" : "GET /WebGoat/registration HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    },
+    {
+      "name"            : "Unencrypted password form",
+      "description"     : "\nThe HTTP protocol by itself is clear text, meaning that any data that is\ntransmitted via HTTP can be captured and the contents viewed.\n\nTo keep data private, and prevent it from being intercepted, HTTP is often\ntunnelled through either Secure Sockets Layer (SSL), or Transport Layer Security\n(TLS).\nWhen either of these encryption standards are used it is referred to as HTTPS.\n\nCyber-criminals will often attempt to compromise credentials passed from the\nclient to the server using HTTP.\nThis can be conducted via various different Man-in-The-Middle (MiTM) attacks or\nthrough network packet captures.\n\nArachni discovered that the affected page contains a `password` input, however,\nthe value of the field is not sent to the server utilising HTTPS. Therefore it\nis possible that any submitted credential may become compromised.\n",
+      "references"      : {
+        "OWASP Top 10 2010" : "http://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection"
+      },
+      "cwe"             : 319,
+      "severity"        : "medium",
+      "remedy_guidance" : "\nThe affected site should be secured utilising the latest and most secure encryption\nprotocols.\nThese include SSL version 3.0 and TLS version 1.2. While TLS 1.2 is the latest\nand the most preferred protocol, not all browsers will support this encryption\nmethod. Therefore, the more common SSL is included. Older protocols such as SSL\nversion 2, and weak ciphers (< 128 bit) should also be disabled.\n",
+      "check"           : {
+        "name"        : "Unencrypted password forms",
+        "description" : "Looks for password inputs that don't submit data\n                over an encrypted channel (HTTPS).",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com> ",
+        "version"     : "0.2.2",
+        "shortname"   : "unencrypted_password_forms"
+      },
+      "vector"          : {
+        "class"                : "Arachni::Element::Form",
+        "type"                 : "form",
+        "url"                  : "http://192.168.0.18:8080/WebGoat/login",
+        "source"               : "<form action=\"/WebGoat/login\" method=\"POST\" style=\"width: 200px;\">\n  <div class=\"form-group\">\n    <label for=\"exampleInputEmail1\">\n      Username\n    </label>\n    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Username\" name=\"username\">\n    </input>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"exampleInputPassword1\">\n      Password\n    </label>\n    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\" name=\"password\">\n    </input>\n  </div>\n  <button class=\"btn btn-primary btn-block\" type=\"submit\">\n    Sign in\n  </button>\n  <div class=\"text-center\">\n    <a href=\"/WebGoat/registration\">\n      Register new user\n    </a>\n  </div>\n</form>",
+        "inputs"               : {
+          "username" : "",
+          "password" : ""
+        },
+        "raw_inputs"           : [],
+        "default_inputs"       : {
+          "username" : "",
+          "password" : ""
+        },
+        "action"               : "http://192.168.0.18:8080/WebGoat/login",
+        "method"               : "post",
+        "affected_input_name"  : null,
+        "affected_input_value" : "",
+        "seed"                 : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            \n            \n            <br/><br/>\n            <form action=\"/WebGoat/login\" method='POST' style=\"width: 200px;\">\n                <div class=\"form-group\">\n                    <label for=\"exampleInputEmail1\">Username</label>\n                    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                           id=\"exampleInputEmail1\" placeholder=\"Username\" name='username' />\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"exampleInputPassword1\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\"\n                           name='password' />\n                </div>\n                <button class=\"btn btn-primary btn-block\" type=\"submit\">Sign in</button>\n                <div class=\"text-center\"><a href=\"/WebGoat/registration\">Register new user</a></div>\n            </form>\n            <br/><br/>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/login",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            \n            \n            <br/><br/>\n            <form action=\"/WebGoat/login\" method='POST' style=\"width: 200px;\">\n                <div class=\"form-group\">\n                    <label for=\"exampleInputEmail1\">Username</label>\n                    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                           id=\"exampleInputEmail1\" placeholder=\"Username\" name='username' />\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"exampleInputPassword1\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\"\n                           name='password' />\n                </div>\n                <button class=\"btn btn-primary btn-block\" type=\"submit\">Sign in</button>\n                <div class=\"text-center\"><a href=\"/WebGoat/registration\">Register new user</a></div>\n            </form>\n            <br/><br/>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/login",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [
+        "unencrypted",
+        "password",
+        "form"
+      ],
+      "digest"          : 467841076,
+      "proof"           : "<form action=\"/WebGoat/login\" method=\"POST\" style=\"width: 200px;\">\n  <div class=\"form-group\">\n    <label for=\"exampleInputEmail1\">\n      Username\n    </label>\n    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Username\" name=\"username\">\n    </input>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"exampleInputPassword1\">\n      Password\n    </label>\n    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\" name=\"password\">\n    </input>\n  </div>\n  <button class=\"btn btn-primary btn-block\" type=\"submit\">\n    Sign in\n  </button>\n  <div class=\"text-center\">\n    <a href=\"/WebGoat/registration\">\n      Register new user\n    </a>\n  </div>\n</form>",
+      "cwe_url"         : "http://cwe.mitre.org/data/definitions/319.html",
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:06 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/login",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:06 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            \n            \n            <br/><br/>\n            <form action=\"/WebGoat/login\" method='POST' style=\"width: 200px;\">\n                <div class=\"form-group\">\n                    <label for=\"exampleInputEmail1\">Username</label>\n                    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                           id=\"exampleInputEmail1\" placeholder=\"Username\" name='username' />\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"exampleInputPassword1\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\"\n                           name='password' />\n                </div>\n                <button class=\"btn btn-primary btn-block\" type=\"submit\">Sign in</button>\n                <div class=\"text-center\"><a href=\"/WebGoat/registration\">Register new user</a></div>\n            </form>\n            <br/><br/>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.046484,
+        "app_time"       : 0.045549,
+        "total_time"     : 0.046484,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/login",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=bo95gsi_w9Y5egeB80LooGtGA-F1lp2ytCm7tlyT"
+        },
+        "headers_string" : "GET /WebGoat/login HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=bo95gsi_w9Y5egeB80LooGtGA-F1lp2ytCm7tlyT\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    },
+    {
+      "name"            : "Password field with auto-complete",
+      "description"     : "\nIn typical form-based web applications, it is common practice for developers to\nallow `autocomplete` within the HTML form to improve the usability of the page.\nWith `autocomplete` enabled (default), the browser is allowed to cache previously\nentered form values.\n\nFor legitimate purposes, this allows the user to quickly re-enter the same data\nwhen completing the form multiple times.\n\nWhen `autocomplete` is enabled on either/both the username and password fields,\nthis could allow a cyber-criminal with access to the victim's computer the ability\nto have the victim's credentials automatically entered as the cyber-criminal\nvisits the affected page.\n\nArachni has discovered that the affected page contains a form containing a\npassword field that has not disabled `autocomplete`.\n",
+      "references"      : {},
+      "severity"        : "low",
+      "remedy_guidance" : "\nThe `autocomplete` value can be configured in two different locations.\n\nThe first and most secure location is to disable the `autocomplete` attribute on\nthe `<form>` HTML tag. This will disable `autocomplete` for all inputs within that form.\nAn example of disabling `autocomplete` within the form tag is `<form autocomplete=off>`.\n\nThe second slightly less desirable option is to disable the `autocomplete` attribute\nfor a specific `<input>` HTML tag.\nWhile this may be the less desired solution from a security perspective, it may\nbe preferred method for usability reasons, depending on size of the form.\nAn example of disabling the `autocomplete` attribute within a password input tag\nis `<input type=password autocomplete=off>`.\n",
+      "check"           : {
+        "name"        : "Password field with auto-complete",
+        "description" : "Greps pages for forms which have password fields\n                without explicitly disabling auto-complete.",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+        "version"     : "0.3.1",
+        "max_issues"  : 25,
+        "shortname"   : "password_autocomplete"
+      },
+      "vector"          : {
+        "class"               : "Arachni::Element::Form",
+        "type"                : "form",
+        "url"                 : "http://192.168.0.18:8080/WebGoat/registration",
+        "source"              : "<form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method=\"POST\">\n  <div class=\"form-group\">\n    <label for=\"username\" class=\"col-sm-2 control-label\">\n      Username\n    </label>\n    <div class=\"col-sm-4\">\n      <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Username\" name=\"username\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\" class=\"col-sm-2 control-label\">\n      Password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">\n      Confirm password\n    </label>\n    <div class=\"col-sm-4\">\n      <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\" name=\"matchingPassword\" value=\"\">\n      </input>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label class=\"col-sm-2 control-label\">\n      Terms of use\n    </label>\n    <div class=\"col-sm-6\">\n      <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n        <p>\n          While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n        </p>\n        <p>\n          This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n        </p>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-6 col-sm-offset-2\">\n      <div class=\"checkbox\">\n        <label>\n          <input type=\"checkbox\" name=\"agree\" value=\"agree\">\n          </input>\n          Agree with the terms and\n                                    conditions\n        </label>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-6\">\n      <button type=\"submit\" class=\"btn btn-primary\">\n        Sign up\n      </button>\n    </div>\n  </div>\n</form>",
+        "inputs"              : {
+          "username"         : "",
+          "password"         : "",
+          "matchingPassword" : "",
+          "agree"            : "agree"
+        },
+        "raw_inputs"          : [],
+        "default_inputs"      : {
+          "username"         : "",
+          "password"         : "",
+          "matchingPassword" : "",
+          "agree"            : "agree"
+        },
+        "action"              : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "method"              : "post",
+        "affected_input_name" : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/registration",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [],
+      "digest"          : 3375034215,
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:29 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/registration",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:29 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            <br/><br/>\n            <fieldset>\n                <legend>Register </legend>\n                <form class=\"form-horizontal\" action=\"/WebGoat/register.mvc\" method='POST'>\n\n                    <div class=\"form-group\">\n                        <label for=\"username\" class=\"col-sm-2 control-label\">Username</label>\n                        <div class=\"col-sm-4\">\n                            <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                                   id=\"username\" placeholder=\"Username\" name='username' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"password\" class=\"col-sm-2 control-label\">Password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\"\n                                   name='password' value=\"\"/>\n                        </div>\n                        \n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"matchingPassword\" class=\"col-sm-2 control-label\">Confirm password</label>\n                        <div class=\"col-sm-4\">\n                            <input type=\"password\" class=\"form-control\" id=\"matchingPassword\" placeholder=\"Password\"\n                                   name='matchingPassword' value=\"\"/>\n                        </div>\n                        \n\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label class=\"col-sm-2 control-label\">Terms of use</label>\n                        <div class=\"col-sm-6\">\n                            <div style=\"border: 1px solid #e5e5e5; height: 200px; overflow: auto; padding: 10px;\">\n                                <p>\n                                    While running this program your machine will be extremely\n                                    vulnerable to attack. You should disconnect from the Internet while using\n                                    this program. WebGoat's default configuration binds to localhost to minimize\n                                    the exposure.\n                                </p>\n                                <p>\n                                    This program is for educational purposes only. If you attempt\n                                    these techniques without authorization, you are very likely to get caught. If\n                                    you are caught engaging in unauthorized hacking, most companies will fire you.\n                                    Claiming that you were doing security research will not work as that is the\n                                    first thing that all hackers claim.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-6 col-sm-offset-2\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" name=\"agree\" value=\"agree\"/>Agree with the terms and\n                                    conditions\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <div class=\"col-sm-offset-2 col-sm-6\">\n                            <button type=\"submit\" class=\"btn btn-primary\">Sign up</button>\n                        </div>\n                    </div>\n                </form>\n            </fieldset>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.043715,
+        "app_time"       : 0.043075,
+        "total_time"     : 0.043715,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/registration",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "headers_string" : "GET /WebGoat/registration HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    },
+    {
+      "name"            : "Password field with auto-complete",
+      "description"     : "\nIn typical form-based web applications, it is common practice for developers to\nallow `autocomplete` within the HTML form to improve the usability of the page.\nWith `autocomplete` enabled (default), the browser is allowed to cache previously\nentered form values.\n\nFor legitimate purposes, this allows the user to quickly re-enter the same data\nwhen completing the form multiple times.\n\nWhen `autocomplete` is enabled on either/both the username and password fields,\nthis could allow a cyber-criminal with access to the victim's computer the ability\nto have the victim's credentials automatically entered as the cyber-criminal\nvisits the affected page.\n\nArachni has discovered that the affected page contains a form containing a\npassword field that has not disabled `autocomplete`.\n",
+      "references"      : {},
+      "severity"        : "low",
+      "remedy_guidance" : "\nThe `autocomplete` value can be configured in two different locations.\n\nThe first and most secure location is to disable the `autocomplete` attribute on\nthe `<form>` HTML tag. This will disable `autocomplete` for all inputs within that form.\nAn example of disabling `autocomplete` within the form tag is `<form autocomplete=off>`.\n\nThe second slightly less desirable option is to disable the `autocomplete` attribute\nfor a specific `<input>` HTML tag.\nWhile this may be the less desired solution from a security perspective, it may\nbe preferred method for usability reasons, depending on size of the form.\nAn example of disabling the `autocomplete` attribute within a password input tag\nis `<input type=password autocomplete=off>`.\n",
+      "check"           : {
+        "name"        : "Password field with auto-complete",
+        "description" : "Greps pages for forms which have password fields\n                without explicitly disabling auto-complete.",
+        "elements"    : [
+          "form"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+        "version"     : "0.3.1",
+        "max_issues"  : 25,
+        "shortname"   : "password_autocomplete"
+      },
+      "vector"          : {
+        "class"               : "Arachni::Element::Form",
+        "type"                : "form",
+        "url"                 : "http://192.168.0.18:8080/WebGoat/login",
+        "source"              : "<form action=\"/WebGoat/login\" method=\"POST\" style=\"width: 200px;\">\n  <div class=\"form-group\">\n    <label for=\"exampleInputEmail1\">\n      Username\n    </label>\n    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Username\" name=\"username\">\n    </input>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"exampleInputPassword1\">\n      Password\n    </label>\n    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\" name=\"password\">\n    </input>\n  </div>\n  <button class=\"btn btn-primary btn-block\" type=\"submit\">\n    Sign in\n  </button>\n  <div class=\"text-center\">\n    <a href=\"/WebGoat/registration\">\n      Register new user\n    </a>\n  </div>\n</form>",
+        "inputs"              : {
+          "username" : "",
+          "password" : ""
+        },
+        "raw_inputs"          : [],
+        "default_inputs"      : {
+          "username" : "",
+          "password" : ""
+        },
+        "action"              : "http://192.168.0.18:8080/WebGoat/login",
+        "method"              : "post",
+        "affected_input_name" : null
+      },
+      "referring_page"  : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            \n            \n            <br/><br/>\n            <form action=\"/WebGoat/login\" method='POST' style=\"width: 200px;\">\n                <div class=\"form-group\">\n                    <label for=\"exampleInputEmail1\">Username</label>\n                    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                           id=\"exampleInputEmail1\" placeholder=\"Username\" name='username' />\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"exampleInputPassword1\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\"\n                           name='password' />\n                </div>\n                <button class=\"btn btn-primary btn-block\" type=\"submit\">Sign in</button>\n                <div class=\"text-center\"><a href=\"/WebGoat/registration\">Register new user</a></div>\n            </form>\n            <br/><br/>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/login",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            \n            \n            <br/><br/>\n            <form action=\"/WebGoat/login\" method='POST' style=\"width: 200px;\">\n                <div class=\"form-group\">\n                    <label for=\"exampleInputEmail1\">Username</label>\n                    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                           id=\"exampleInputEmail1\" placeholder=\"Username\" name='username' />\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"exampleInputPassword1\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\"\n                           name='password' />\n                </div>\n                <button class=\"btn btn-primary btn-block\" type=\"submit\">Sign in</button>\n                <div class=\"text-center\"><a href=\"/WebGoat/registration\">Register new user</a></div>\n            </form>\n            <br/><br/>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/login",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [],
+      "digest"          : 960642347,
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Transfer-Encoding"      : "chunked",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Language"       : "en-US",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:06 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/login",
+        "code"           : 200,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nDate: Thu, 06 Aug 2020 19:02:06 GMT\r\n\r\n",
+        "body"           : "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Login Page</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/main.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/plugins/bootstrap/css/bootstrap.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/font-awesome.min.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/WebGoat/css/animate.css\"/>\n</head>\n<body>\n<section id=\"container\">\n    <header id=\"header\">\n        <div class=\"brand\">\n            <a href=\"/WebGoat/start.mvc\" class=\"logo\"><span>Web</span>Goat</a>\n        </div>\n        <div class=\"toggle-navigation toggle-left\">\n        </div>\n        <div class=\"lessonTitle\">\n        </div>\n\n    </header>\n    <section class=\"main-content-wrapper\">\n\n        <section id=\"main-content\">\n            \n            \n            <br/><br/>\n            <form action=\"/WebGoat/login\" method='POST' style=\"width: 200px;\">\n                <div class=\"form-group\">\n                    <label for=\"exampleInputEmail1\">Username</label>\n                    <input autofocus=\"dummy_for_thymeleaf_parser\" type=\"text\" class=\"form-control\"\n                           id=\"exampleInputEmail1\" placeholder=\"Username\" name='username' />\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"exampleInputPassword1\">Password</label>\n                    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\"\n                           name='password' />\n                </div>\n                <button class=\"btn btn-primary btn-block\" type=\"submit\">Sign in</button>\n                <div class=\"text-center\"><a href=\"/WebGoat/registration\">Register new user</a></div>\n            </form>\n            <br/><br/>\n        </section>\n    </section>\n</section>\n\n\n</body>\n</html>",
+        "time"           : 0.046484,
+        "app_time"       : 0.045549,
+        "total_time"     : 0.046484,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/login",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=bo95gsi_w9Y5egeB80LooGtGA-F1lp2ytCm7tlyT"
+        },
+        "headers_string" : "GET /WebGoat/login HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=bo95gsi_w9Y5egeB80LooGtGA-F1lp2ytCm7tlyT\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    },
+    {
+      "name"           : "Interesting response",
+      "description"    : "\nThe server responded with a non 200 (OK) nor 404 (Not Found) status code.\nThis is a non-issue, however exotic HTTP response status codes can provide useful\ninsights into the behavior of the web application and assist with the penetration test.\n",
+      "references"     : {
+        "w3.org" : "http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"
+      },
+      "severity"       : "informational",
+      "check"          : {
+        "name"        : "Interesting responses",
+        "description" : "Logs all non 200 (OK) server responses.",
+        "elements"    : [
+          "server"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+        "version"     : "0.2.1",
+        "max_issues"  : 25,
+        "shortname"   : "interesting_responses"
+      },
+      "vector"         : {
+        "class"               : "Arachni::Element::Server",
+        "type"                : "server",
+        "url"                 : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "affected_input_name" : null
+      },
+      "referring_page" : {
+        "body" : "",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"           : {
+        "body" : "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Thu Aug 06 21:03:30 CEST 2020</div><div>There was an unexpected error (type=Method Not Allowed, status=405).</div><div>Request method &#39;GET&#39; not supported</div><div style='white-space:pre-wrap;'>org.springframework.web.HttpRequestMethodNotSupportedException: Request method &#39;GET&#39; not supported\n\tat org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)\n\tat org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)\n\tat org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)\n\tat org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)\n\tat org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:503)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:590)\n\tat io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)\n\tat org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)\n\tat org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)\n\tat org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)\n\tat org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)\n\tat org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)\n\tat org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)\n\tat io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)\n\tat io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)\n\tat io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)\n\tat io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)\n\tat io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)\n\tat io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)\n\tat io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)\n\tat io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)\n\tat io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)\n\tat io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)\n\tat io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)\n\tat io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)\n\tat io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)\n\tat io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)\n\tat io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)\n\tat io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)\n\tat io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)\n\tat io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)\n\tat io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)\n\tat io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)\n\tat io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n</div></body></html>",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/register.mvc",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"        : {},
+      "trusted"        : true,
+      "tags"           : [
+        "interesting",
+        "response",
+        "server"
+      ],
+      "digest"         : 1564774084,
+      "proof"          : "HTTP/1.1 405 Method Not Allowed",
+      "response"       : {
+        "headers"        : {
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Frame-Options"        : "DENY",
+          "Date"                   : "Thu, 06 Aug 2020 19:03:30 GMT",
+          "Allow"                  : "POST",
+          "Connection"             : "keep-alive",
+          "X-Content-Type-Options" : "nosniff",
+          "Content-Type"           : "text/html;charset=UTF-8",
+          "Content-Length"         : "10320",
+          "Content-Language"       : "en-US"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "code"           : 405,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 405 Method Not Allowed\r\nX-XSS-Protection: 1; mode=block\r\nX-Frame-Options: DENY\r\nDate: Thu, 06 Aug 2020 19:03:30 GMT\r\nAllow: POST\r\nConnection: keep-alive\r\nX-Content-Type-Options: nosniff\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Length: 10320\r\nContent-Language: en-US\r\n\r\n",
+        "body"           : "<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Thu Aug 06 21:03:30 CEST 2020</div><div>There was an unexpected error (type=Method Not Allowed, status=405).</div><div>Request method &#39;GET&#39; not supported</div><div style='white-space:pre-wrap;'>org.springframework.web.HttpRequestMethodNotSupportedException: Request method &#39;GET&#39; not supported\n\tat org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)\n\tat org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)\n\tat org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)\n\tat org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)\n\tat org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:503)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:590)\n\tat io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)\n\tat org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)\n\tat org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)\n\tat org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)\n\tat org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)\n\tat org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)\n\tat org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)\n\tat org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\n\tat io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)\n\tat io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)\n\tat io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)\n\tat io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)\n\tat io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)\n\tat io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)\n\tat io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)\n\tat io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)\n\tat io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)\n\tat io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)\n\tat io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)\n\tat io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)\n\tat io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)\n\tat io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)\n\tat io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)\n\tat io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)\n\tat io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)\n\tat io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)\n\tat io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)\n\tat io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)\n\tat io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)\n\tat io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)\n\tat io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)\n\tat io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)\n\tat io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n</div></body></html>",
+        "time"           : 0.085484,
+        "app_time"       : 0.084794,
+        "total_time"     : 0.085484,
+        "return_code"    : "ok",
+        "return_message" : "No error",
+        "status_line"    : "HTTP/1.1 405 Method Not Allowed"
+      },
+      "request"        : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/register.mvc",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293",
+          "Cookie"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "headers_string" : "GET /WebGoat/register.mvc HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\nCookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    },
+    {
+      "name"            : "HttpOnly cookie",
+      "description"     : "\nHTTP by itself is a stateless protocol. Therefore the server is unable to determine\nwhich requests are performed by which client, and which clients are authenticated\nor unauthenticated.\n\nThe use of HTTP cookies within the headers, allows a web server to identify each\nindividual client and can therefore determine which clients hold valid\nauthentication, from those that do not. These are known as session cookies.\n\nWhen a cookie is set by the server (sent the header of an HTTP response) there\nare several flags that can be set to configure the properties of the cookie and\nhow it is to be handled by the browser.\n\nThe `HttpOnly` flag assists in the prevention of client side-scripts (such as\nJavaScript) accessing and using the cookie.\n\nThis can help prevent XSS attacks targeting the cookies holding the client's\nsession token (setting the `HttpOnly` flag does not prevent, nor safeguard against\nXSS vulnerabilities themselves).\n",
+      "references"      : {
+        "HttpOnly - OWASP" : "https://www.owasp.org/index.php/HttpOnly"
+      },
+      "cwe"             : 200,
+      "severity"        : "informational",
+      "remedy_guidance" : "\nThe initial step to remedy this would be to determine whether any client-side\nscripts (such as JavaScript) need to access the cookie and if not, set the\n`HttpOnly` flag.\n\nAdditionally, it should be noted that some older browsers are not compatible with\nthe `HttpOnly` flag, and therefore setting this flag will not protect those clients\nagainst this form of attack.\n",
+      "check"           : {
+        "name"        : "HttpOnly cookies",
+        "description" : "Logs cookies that are accessible via JavaScript.",
+        "elements"    : [
+          "cookie"
+        ],
+        "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+        "version"     : "0.1.5",
+        "shortname"   : "http_only_cookies"
+      },
+      "vector"          : {
+        "class"               : "Arachni::Element::Cookie",
+        "type"                : "cookie",
+        "url"                 : "http://192.168.0.18:8080/WebGoat/",
+        "action"              : "http://192.168.0.18:8080/WebGoat/",
+        "method"              : "get",
+        "source"              : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1; path=/WebGoat",
+        "inputs"              : {
+          "JSESSIONID" : "abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "raw_inputs"          : [],
+        "default_inputs"      : {
+          "JSESSIONID" : "abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1"
+        },
+        "affected_input_name" : null
+      },
+      "referring_page"  : {
+        "body" : "",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "page"            : {
+        "body" : "",
+        "dom"  : {
+          "url"                  : "http://192.168.0.18:8080/WebGoat/",
+          "transitions"          : [],
+          "cookies"              : [],
+          "digest"               : null,
+          "data_flow_sinks"      : [],
+          "execution_flow_sinks" : []
+        }
+      },
+      "remarks"         : {},
+      "trusted"         : true,
+      "tags"            : [],
+      "digest"          : 237693917,
+      "cwe_url"         : "http://cwe.mitre.org/data/definitions/200.html",
+      "response"        : {
+        "headers"        : {
+          "Connection"             : "keep-alive",
+          "Set-Cookie"             : "JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1; path=/WebGoat",
+          "X-Xss-Protection"       : "1; mode=block",
+          "X-Content-Type-Options" : "nosniff",
+          "X-Frame-Options"        : "DENY",
+          "Location"               : "http://192.168.0.18:8080/WebGoat/login",
+          "Content-Length"         : "0",
+          "Date"                   : "Thu, 06 Aug 2020 19:02:06 GMT"
+        },
+        "url"            : "http://192.168.0.18:8080/WebGoat/",
+        "code"           : 302,
+        "ip_address"     : "192.168.0.18",
+        "headers_string" : "HTTP/1.1 302 Found\r\nConnection: keep-alive\r\nSet-Cookie: JSESSIONID=abtr-Od9Hogc_X5QRIUmtqRwGpj-HelsnALG9Gw1; path=/WebGoat\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nLocation: http://192.168.0.18:8080/WebGoat/login\r\nContent-Length: 0\r\nDate: Thu, 06 Aug 2020 19:02:06 GMT\r\n\r\n",
+        "body"           : "",
+        "time"           : 0.009603,
+        "app_time"       : 0.00563,
+        "total_time"     : 0.009603,
+        "return_code"    : "ok",
+        "return_message" : "No error"
+      },
+      "request"         : {
+        "url"            : "http://192.168.0.18:8080/WebGoat/",
+        "parameters"     : {},
+        "headers"        : {
+          "Accept"              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "User-Agent"          : "Arachni/v1.5.1",
+          "Accept-Language"     : "en-US,en;q=0.8,he;q=0.6",
+          "X-Arachni-Scan-Seed" : "b7e54f797077273bd1d2cda059090293"
+        },
+        "headers_string" : "GET /WebGoat/ HTTP/1.1\r\nHost: 192.168.0.18:8080\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Arachni/v1.5.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8,he;q=0.6\r\nX-Arachni-Scan-Seed: b7e54f797077273bd1d2cda059090293\r\n\r\n",
+        "effective_body" : null,
+        "body"           : null,
+        "method"         : "get"
+      }
+    }
+  ],
+  "plugins"         : {
+    "healthmap" : {
+      "name"        : "Health map",
+      "description" : "Generates a simple list of safe/unsafe URLs.",
+      "author"      : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+      "version"     : "0.1.5",
+      "results"     : {
+        "map"              : [
+          {
+            "with_issues" : "http://192.168.0.18:8080/WebGoat/"
+          },
+          {
+            "without_issues" : "http://192.168.0.18:8080/WebGoat/css/animate.css"
+          },
+          {
+            "without_issues" : "http://192.168.0.18:8080/WebGoat/css/font-awesome.min.css"
+          },
+          {
+            "without_issues" : "http://192.168.0.18:8080/WebGoat/css/main.css"
+          },
+          {
+            "with_issues" : "http://192.168.0.18:8080/WebGoat/login"
+          },
+          {
+            "without_issues" : "http://192.168.0.18:8080/WebGoat/plugins/bootstrap/css/bootstrap.min.css"
+          },
+          {
+            "with_issues" : "http://192.168.0.18:8080/WebGoat/register.mvc"
+          },
+          {
+            "without_issues" : "http://192.168.0.18:8080/WebGoat/registration"
+          },
+          {
+            "without_issues" : "http://192.168.0.18:8080/WebGoat/start.mvc"
+          }
+        ],
+        "total"            : 9,
+        "without_issues"   : 6,
+        "with_issues"      : 3,
+        "issue_percentage" : 33
+      }
+    }
+  }
+}
