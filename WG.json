@@ -1,0 +1,61 @@
+{
+  "informations"     : {
+    "5aa1a7e1db7d82abff9e4fb829710c84"    : {
+      "display_content" : "Unknown", "display_name" : "Web Server Fingerprint", "links" : [
+        "765a1c43911fae7b23a08519b1b6dd34"
+      ], "data_type"    : 1, "canonical_name" : "unknown", "related" : {}, "depth" : 0, "data_subtype" : "information/fingerprint/webserver", "version" : "Unknown", "others" : {}, "information_category" : 4, "banner" : "Unknown", "class" : "WebServerFingerprint", "identity" : "5aa1a7e1db7d82abff9e4fb829710c84", "name" : "unknown"
+    }, "dc80514ed1e62e3777c21cb5e337fce4" : {
+      "display_content" : "jdbc (TCP port 9001)", "display_name" : "Service Fingerprint", "links" : [
+        "b2f2205c21a3a57dd789ff8ad6061395"
+      ], "data_type"    : 1, "protocol" : "TCP", "port" : 9001, "depth" : 0, "data_subtype" : "information/fingerprint/service", "information_category" : 4, "class" : "ServiceFingerprint", "identity" : "dc80514ed1e62e3777c21cb5e337fce4", "name" : "jdbc"
+    }, "234c19fa0df8010934b32c2e5ef0b928" : {
+      "display_content" : "ppp (TCP port 3000)", "display_name" : "Service Fingerprint", "links" : [
+        "b2f2205c21a3a57dd789ff8ad6061395"
+      ], "data_type"    : 1, "protocol" : "TCP", "port" : 3000, "depth" : 0, "data_subtype" : "information/fingerprint/service", "information_category" : 4, "class" : "ServiceFingerprint", "identity" : "234c19fa0df8010934b32c2e5ef0b928", "name" : "ppp"
+    }, "609b97a6b27f03dcfebc535640b80153" : {
+      "display_content" : "zeus-admin (TCP port 9090)", "display_name" : "Service Fingerprint", "links" : [
+        "b2f2205c21a3a57dd789ff8ad6061395"
+      ], "data_type"    : 1, "protocol" : "TCP", "port" : 9090, "depth" : 0, "data_subtype" : "information/fingerprint/service", "information_category" : 4, "class" : "ServiceFingerprint", "identity" : "609b97a6b27f03dcfebc535640b80153", "name" : "zeus-admin"
+    }, "17f51d785f0d14e762e6ccbb6fc70f3c" : {
+      "display_content" : "http-proxy (TCP port 8080)", "display_name" : "Service Fingerprint", "links" : [
+        "b2f2205c21a3a57dd789ff8ad6061395"
+      ], "data_type"    : 1, "protocol" : "TCP", "port" : 8080, "depth" : 0, "data_subtype" : "information/fingerprint/service", "information_category" : 4, "class" : "ServiceFingerprint", "identity" : "17f51d785f0d14e762e6ccbb6fc70f3c", "name" : "http-proxy"
+    }, "ea584fb60b73f41509eaabfb8f0aeb22" : {
+      "display_content" : "OPEN     TCP 3000\nOPEN     TCP 8080\nOPEN     TCP 9001\nOPEN     TCP 9090\nOPEN     TCP 32773", "display_name" : "Port Scan Results", "links" : ["b2f2205c21a3a57dd789ff8ad6061395"], "data_type" : 1, "timestamp" : 1596745361.0, "ports" : [
+        ["OPEN", "TCP", 3000], ["OPEN", "TCP", 9001], ["OPEN", "TCP", 9090], ["OPEN", "TCP", 32773], ["OPEN", "TCP", 8080]
+      ], "depth"        : 0, "data_subtype" : "information/portscan", "address" : "192.168.0.18", "information_category" : 4, "class" : "Portscan", "identity" : "ea584fb60b73f41509eaabfb8f0aeb22"
+    }, "cc0e6e0be2ac5dc4ebb2917a1d0547e0" : {
+      "display_content" : "tcpwrapped (TCP port 32773)", "display_name" : "Service Fingerprint", "links" : [
+        "b2f2205c21a3a57dd789ff8ad6061395"
+      ], "data_type"    : 1, "protocol" : "TCP", "port" : 32773, "depth" : 0, "data_subtype" : "information/fingerprint/service", "information_category" : 4, "class" : "ServiceFingerprint", "identity" : "cc0e6e0be2ac5dc4ebb2917a1d0547e0", "name" : "tcpwrapped"
+    }
+  }, "audit_scope"   : {"domains" : [], "web_pages" : ["http://192.168.0.18:8080/", "http://192.168.0.18:8080/WebGoat/"], "addresses" : ["192.168.0.18"], "roots" : []}, "vulnerabilities" : {
+  "76d5728b69f8d903b0bb59231cdd4eb1"    : {
+    "edb"   : [], "mskb" : [], "cisco" : [], "links" : [
+      "ec8f6b10aca6ef540838dda0645bbf85"
+    ], "ca" : [], "sectrack" : [], "glsa" : [], "display_content" : "<UncategorizedVulnerability plugin_id='testing/scan/nikto' level='informational' title='User attention required by: Nikto'>", "references" : [], "vu" : [], "risk" : 0, "impact" : 0, "display_name" : "Uncategorized Vulnerability", "severity" : 0, "osvdb" : [], "usn" : [], "mdvsa" : [], "capec" : [], "data_subtype" : "vulnerability/generic", "cvss_score" : null, "plugin_id" : "testing/scan/nikto", "cwe" : [], "cvss_base" : "0.0", "dsa" : [], "tool_id" : null, "description" : "The anti-clickjacking X-Frame-Options header is not present.", "data_type" : 2, "xf" : [], "bid" : [], "target_id" : "ec8f6b10aca6ef540838dda0645bbf85", "cvss_vector" : null, "false_positive" : 0, "class" : "UncategorizedVulnerability", "identity" : "76d5728b69f8d903b0bb59231cdd4eb1", "custom_id" : "192.168.0.18;192.168.0.18;8080;OSVDB-0;GET;/;The anti-clickjacking X-Frame-Options header is not present.", "level" : "informational", "title" : "User attention required by: Nikto", "solution" : "No additional details are available.", "nessus" : [], "depth" : 0, "vmsa" : [], "ms" : [], "sa" : [], "cve" : [], "rhsa" : []
+  }, "2008d3982ddd4cd3fba04d70f9ad32f0" : {
+    "edb"   : [], "mskb" : [], "cisco" : [], "links" : [
+      "ec8f6b10aca6ef540838dda0645bbf85"
+    ], "ca" : [], "sectrack" : [], "glsa" : [], "display_content" : "<UncategorizedVulnerability plugin_id='testing/scan/nikto' level='informational' title='User attention required by: Nikto'>", "references" : [], "vu" : [], "risk" : 0, "impact" : 0, "display_name" : "Uncategorized Vulnerability", "severity" : 0, "osvdb" : [], "usn" : [], "mdvsa" : [], "capec" : [], "data_subtype" : "vulnerability/generic", "cvss_score" : null, "plugin_id" : "testing/scan/nikto", "cwe" : [], "cvss_base" : "0.0", "dsa" : [], "tool_id" : null, "description" : "The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS", "data_type" : 2, "xf" : [], "bid" : [], "target_id" : "ec8f6b10aca6ef540838dda0645bbf85", "cvss_vector" : null, "false_positive" : 0, "class" : "UncategorizedVulnerability", "identity" : "2008d3982ddd4cd3fba04d70f9ad32f0", "custom_id" : "192.168.0.18;192.168.0.18;8080;OSVDB-0;GET;/;The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS", "level" : "informational", "title" : "User attention required by: Nikto", "solution" : "No additional details are available.", "nessus" : [], "depth" : 0, "vmsa" : [], "ms" : [], "sa" : [], "cve" : [], "rhsa" : []
+  }, "1cab96d4d3440a7502d69eae79ffd0b7" : {
+    "edb"   : [], "mskb" : [], "cisco" : [], "links" : [
+      "ec8f6b10aca6ef540838dda0645bbf85"
+    ], "ca" : [], "sectrack" : [], "glsa" : [], "display_content" : "<UncategorizedVulnerability plugin_id='testing/scan/nikto' level='informational' title='User attention required by: Nikto'>", "references" : [], "vu" : [], "risk" : 0, "impact" : 0, "display_name" : "Uncategorized Vulnerability", "severity" : 0, "osvdb" : [], "usn" : [], "mdvsa" : [], "capec" : [], "data_subtype" : "vulnerability/generic", "cvss_score" : null, "plugin_id" : "testing/scan/nikto", "cwe" : [], "cvss_base" : "0.0", "dsa" : [], "tool_id" : null, "description" : "The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type", "data_type" : 2, "xf" : [], "bid" : [], "target_id" : "ec8f6b10aca6ef540838dda0645bbf85", "cvss_vector" : null, "false_positive" : 0, "class" : "UncategorizedVulnerability", "identity" : "1cab96d4d3440a7502d69eae79ffd0b7", "custom_id" : "192.168.0.18;192.168.0.18;8080;OSVDB-0;GET;/;The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type", "level" : "informational", "title" : "User attention required by: Nikto", "solution" : "No additional details are available.", "nessus" : [], "depth" : 0, "vmsa" : [], "ms" : [], "sa" : [], "cve" : [], "rhsa" : []
+  }
+}, "false_positives" : {}, "summary" : {"report_time" : "2020-08-06 20:22:42.213400", "start_time" : "2020-08-06 22:20:29.548925 UTC", "audit_name" : "golismero-MUJhsVqG", "stop_time" : "2020-08-06 22:22:42.210065 UTC", "run_time" : "0 days, 0 hours, 2 minutes and 12 seconds"}, "version" : "GoLismero 2.0.0b6", "report_type" : "full", "resources" : {
+  "87353f06b427055af4a944e8c10bcfff"    : {"display_content" : "http://192.168.0.18:8080/WebGoat/", "display_name" : "Folder URL", "links" : [], "data_type" : 3, "url" : "http://192.168.0.18:8080/WebGoat/", "depth" : -1, "data_subtype" : "resource/url/folder_url", "class" : "FolderURL", "identity" : "87353f06b427055af4a944e8c10bcfff"}, "70dc82c87bec17e4cf66f11c0e2d450d" : {"display_content" : "http://192.168.0.18:8080/", "display_name" : "Folder URL", "links" : [], "data_type" : 3, "url" : "http://192.168.0.18:8080/", "depth" : -1, "data_subtype" : "resource/url/folder_url", "class" : "FolderURL", "identity" : "70dc82c87bec17e4cf66f11c0e2d450d"}, "1f946cbce081ca53802b33088672fcfa" : {"display_content" : "http://192.168.0.18:8080/WebGoat/", "display_name" : "URL", "links" : [], "data_type" : 3, "url" : "http://192.168.0.18:8080/WebGoat/", "method" : "GET", "depth" : 0, "data_subtype" : "resource/url/url", "post_data" : null, "class" : "URL", "identity" : "1f946cbce081ca53802b33088672fcfa"}, "765a1c43911fae7b23a08519b1b6dd34" : {
+    "display_content" : "http://192.168.0.18:8080/", "display_name" : "Base URL", "links" : [
+      "5aa1a7e1db7d82abff9e4fb829710c84"
+    ], "data_type"    : 3, "url" : "http://192.168.0.18:8080/", "depth" : 0, "data_subtype" : "resource/url/base_url", "class" : "BaseURL", "identity" : "765a1c43911fae7b23a08519b1b6dd34"
+  }, "ec8f6b10aca6ef540838dda0645bbf85" : {
+    "display_content" : "http://192.168.0.18:8080/", "display_name" : "URL", "links" : [
+      "1cab96d4d3440a7502d69eae79ffd0b7", "2008d3982ddd4cd3fba04d70f9ad32f0", "76d5728b69f8d903b0bb59231cdd4eb1"
+    ], "data_type"    : 3, "url" : "http://192.168.0.18:8080/", "method" : "GET", "depth" : 0, "data_subtype" : "resource/url/url", "post_data" : null, "class" : "URL", "identity" : "ec8f6b10aca6ef540838dda0645bbf85"
+  }, "b2f2205c21a3a57dd789ff8ad6061395" : {
+    "display_content" : "192.168.0.18", "display_name" : "IP Address", "links" : [
+      "dc80514ed1e62e3777c21cb5e337fce4", "234c19fa0df8010934b32c2e5ef0b928", "609b97a6b27f03dcfebc535640b80153", "17f51d785f0d14e762e6ccbb6fc70f3c", "ea584fb60b73f41509eaabfb8f0aeb22", "cc0e6e0be2ac5dc4ebb2917a1d0547e0"
+    ], "data_type"    : 3, "depth" : 0, "data_subtype" : "resource/ip", "address" : "192.168.0.18", "class" : "IP", "identity" : "b2f2205c21a3a57dd789ff8ad6061395"
+  }
+}
+}
