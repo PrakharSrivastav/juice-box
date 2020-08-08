@@ -11,6 +11,9 @@ services:
       - 222:22
       - 7331:7331
       - 9292:9292
+  nikto:
+    image: frapsoft/nikto:latest
+
 
   zap-proxy:
     image: owasp/zap2docker-stable
