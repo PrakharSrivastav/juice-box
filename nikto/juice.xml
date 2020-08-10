@@ -1,0 +1,1239 @@
+<?xml version="1.0" ?>
+<!DOCTYPE niktoscan SYSTEM "docs/nikto.dtd">
+<niktoscan>
+    <niktoscan hoststest="0" options="-h http://192.168.0.18:3000/ -o xml --output /tmp/juice.xml" version="2.1.6"
+               scanstart="Sun Aug  9 02:14:19 2020" scanend="Thu Jan  1 00:00:00 1970" scanelapsed=" seconds"
+               nxmlversion="1.2">
+
+        <scandetails targetip="192.168.0.18" targethostname="192.168.0.18" targetport="3000" targetbanner=""
+                     starttime="2020-08-09 02:14:19" sitename="http://192.168.0.18:3000/"
+                     siteip="http://192.168.0.18:3000/" hostheader="192.168.0.18" errors="0" checks="6942">
+
+
+            <item id="999986" osvdbid="0" osvdblink="" method="GET">
+                <description><![CDATA[Retrieved access-control-allow-origin header: *]]></description>
+                <uri><![CDATA[/]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/]]></iplink>
+            </item>
+
+            <item id="999102" osvdbid="0" osvdblink="" method="GET">
+                <description>
+                    <![CDATA[The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS]]></description>
+                <uri><![CDATA[/]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/]]></iplink>
+            </item>
+
+            <item id="999997" osvdbid="0" osvdblink="" method="GET">
+                <description>
+                    <![CDATA[Entry '/ftp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+                <uri><![CDATA[/ftp/]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/ftp/]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/ftp/]]></iplink>
+            </item>
+
+            <item id="999996" osvdbid="0" osvdblink="" method="GET">
+                <description><![CDATA["robots.txt" contains 1 entry which should be manually viewed.]]></description>
+                <uri><![CDATA[/robots.txt]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/robots.txt]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/robots.txt]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/database.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/archive.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/archive.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192168018.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/backup.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/1921680.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168018.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/168.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/168.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/168.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/168.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/database.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/1921680.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/site.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/site.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/site.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/site.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192168018.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168018.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168018.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168018.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192168.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/backup.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/backup.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/backup.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/backup.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/0.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/0.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/0.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/0.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.tar.lzma: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.tar.lzma]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tar.lzma]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tar.lzma]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.war: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.war]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.war]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.war]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192168.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192168.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192168.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192168.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/database.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/database.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/database.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/database.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192.168.0.18.pem: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.18.pem]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.18.pem]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.18.pem]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.tar]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.egg: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.egg]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.egg]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.egg]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/archive.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/archive.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/archive.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/archive.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/1921680.jks: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/1921680.jks]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/1921680.jks]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/1921680.jks]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.tar.bz2: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.tar.bz2]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.tar.bz2]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.tar.bz2]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/18.cer: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/18.cer]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/18.cer]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/18.cer]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description>
+                    <![CDATA[/192_168_0_18.alz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192_168_0_18.alz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192_168_0_18.alz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192_168_0_18.alz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/192.168.0.tgz: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/192.168.0.tgz]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/192.168.0.tgz]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/192.168.0.tgz]]></iplink>
+            </item>
+
+            <item id="740001" osvdbid="0" osvdblink="" method="HEAD">
+                <description><![CDATA[/dump.tar: Potentially interesting backup/cert file found. ]]></description>
+                <uri><![CDATA[/dump.tar]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/dump.tar]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/dump.tar]]></iplink>
+            </item>
+
+            <item id="001675" osvdbid="3092" osvdblink="https://vulners.com/osvdb/OSVDB:3092" method="GET">
+                <description><![CDATA[/ftp/: This might be interesting.]]></description>
+                <uri><![CDATA[/ftp/]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/ftp/]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/ftp/]]></iplink>
+            </item>
+
+            <item id="001811" osvdbid="3092" osvdblink="https://vulners.com/osvdb/OSVDB:3092" method="GET">
+                <description><![CDATA[/public/: This might be interesting.]]></description>
+                <uri><![CDATA[/public/]]></uri>
+                <namelink><![CDATA[http://192.168.0.18:3000/public/]]></namelink>
+                <iplink><![CDATA[http://192.168.0.18:3000/public/]]></iplink>
+            </item>
+
+            <item id="006737" osvdbid="0" osvdblink="" method="POST">
+                <description>
+                    <![CDATA[/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php: NextGEN Gallery LFI, see https://security.dxw.com/advisories/directory-traversal-in-nextgen-gallery-2-0-0/]]></description>
+                <uri>
+                    <![CDATA[/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php]]></uri>
+                <namelink>
+                    <![CDATA[http://192.168.0.18:3000/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php]]></namelink>
+                <iplink>
+                    <![CDATA[http://192.168.0.18:3000/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php]]></iplink>
+            </item>
+
+            <item id="006737" osvdbid="0" osvdblink="" method="POST">
+                <description>
+                    <![CDATA[/wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php: NextGEN Gallery LFI, see https://security.dxw.com/advisories/directory-traversal-in-nextgen-gallery-2-0-0/]]></description>
+                <uri>
+                    <![CDATA[/wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php]]></uri>
+                <namelink>
+                    <![CDATA[http://192.168.0.18:3000/wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php]]></namelink>
+                <iplink>
+                    <![CDATA[http://192.168.0.18:3000/wordpress/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php]]></iplink>
+            </item>
+
+            <statistics elapsed="234" itemsfound="168" itemstested="6942" endtime="2020-08-09 02:18:13"/>
+        </scandetails>
+
+    </niktoscan>
+
+
+</niktoscan>

@@ -11,10 +11,11 @@ import (
 
 func setupClient() (string, zap.Interface, error) {
 	proxy := "http://192.168.0.18:8090"
+	target := "http://192.168.0.18:1300"
 	//target := "http://192.168.0.18:8080/WebGoat/"
 	//target := "http://192.168.0.18:9090/WebWolf/"
 	//target := "http://192.168.0.18:3000/"
-	target := "https://public-firing-range.appspot.com/"
+	//target := "https://public-firing-range.appspot.com/"
 	cfg := zap.Config{
 		Proxy:     proxy,
 		APIKey:    "5364864132243598723485",
@@ -36,8 +37,8 @@ func main() {
 	if err != nil {
 		log.Fatalf("cannot connect to zap proxy :: %v", err)
 	}
-
-	if err = regularSpider(target, client); err != nil {
+	scanID, err := regularSpider(target, client)
+	if err != nil {
 		log.Fatalf("error running regular spider :: %v", err)
 	}
 
@@ -51,7 +52,7 @@ func main() {
 	// Give the passive scanner a chance to complete
 	time.Sleep(2000 * time.Millisecond)
 
-	if err = runActiveScan(target, client); err != nil {
+	if err = runActiveScan(scanID, target, client); err != nil {
 		log.Fatalf("error running active scan :: %v", err)
 	}
 
@@ -69,7 +70,7 @@ func ajaxSpider(target string, client zap.Interface) error {
 	}
 
 	// run maximum for 2 minutes
-	timeout := time.Now().Add(time.Minute * 2)
+	timeout := time.Now().Add(time.Minute * 1)
 	for {
 		status, err := client.AjaxSpider().Status()
 		if err != nil {
@@ -102,11 +103,11 @@ func ajaxSpider(target string, client zap.Interface) error {
 	*/
 }
 
-func regularSpider(target string, client zap.Interface) error {
+func regularSpider(target string, client zap.Interface) (string, error) {
 	log.Println("starting regular spider")
-	resp, err := client.Spider().Scan(target, "", "", "", "")
+	resp, err := client.Spider().Scan(target, "", "True", "", "")
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	scanID := resp["scan"].(string)
@@ -114,18 +115,23 @@ func regularSpider(target string, client zap.Interface) error {
 		time.Sleep(1000 * time.Millisecond)
 		resp, err = client.Spider().Status(scanID)
 		if err != nil {
-			return err
+			return "", err
 		}
 		progress, err := strconv.Atoi(resp["status"].(string))
 		if err != nil {
-			return err
+			return "", err
 		}
 		if progress >= 100 {
 			break
 		}
 	}
-	log.Println("regular spider completed")
-	return nil
+	status, err := client.Spider().Status(scanID)
+	if err != nil {
+		return "", err
+	}
+
+	log.Printf("regular spider completed :: %v , scanID :: %s", status, scanID)
+	return scanID, nil
 	/*
 		results, err := client.Spider().Results(scanID)
 		if err != nil {
@@ -144,7 +150,7 @@ func generateFile(client zap.Interface) error {
 		return err
 	}
 
-	f, err := os.Create("./zap-proxy/PublicFiringRange.json")
+	f, err := os.Create("./zap-proxy/WW.json")
 	if err != nil {
 		return err
 	}
@@ -179,16 +185,18 @@ func runPassiveScan(client zap.Interface) error {
 	return nil
 }
 
-func runActiveScan(target string, client zap.Interface) error {
+func runActiveScan(scanID, target string, client zap.Interface) error {
 	log.Println("running active scan")
 	resp, err := client.Ascan().Scan(target, "True", "False", "", "", "", "")
 	if err != nil {
 		return err
 	}
-	scanID := resp["scan"].(string)
+	resp, _ = client.Ascan().Status(scanID)
+	log.Printf("%v\n", resp)
 	for {
 		time.Sleep(1000 * time.Millisecond)
 		resp, _ = client.Ascan().Status(scanID)
+		log.Printf("%v\n", resp)
 		progress, err := strconv.Atoi(resp["status"].(string))
 		if err != nil {
 			return err

@@ -1,5 +1,6 @@
 {
   "host" : "192.168.0.18", "ip" : "192.168.0.18", "port" : "8080", "banner" : "", "vulnerabilities" : [
-  {"id" : "999961", "OSVDB" : "0", "method" : "GET", "url" : "/WebGoat/", "msg" : "Cookie JSESSIONID created without the httponly flag"}, {"id" : "999988", "OSVDB" : "630", "method" : "GET", "url" : "/WebGoat/", "msg" : "The web server may reveal its internal or real IP in the Location header via a request to / over HTTP/1.0. The value is \"172.18.0.2\"."}
+  {"id" : "999961", "OSVDB" : "0", "method" : "GET", "url" : "/WebGoat/", "msg" : "Cookie JSESSIONID created without the httponly flag"},
+  {"id" : "999988", "OSVDB" : "630", "method" : "GET", "url" : "/WebGoat/", "msg" : "The web server may reveal its internal or real IP in the Location header via a request to / over HTTP/1.0. The value is \"172.18.0.2\"."}
 ]
 }

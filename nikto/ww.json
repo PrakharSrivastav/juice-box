@@ -1,7 +1,10 @@
 {
   "host" : "192.168.0.18", "ip" : "192.168.0.18", "port" : "9090", "banner" : "", "vulnerabilities" : [
-  {"id" : "999961", "OSVDB" : "0", "method" : "GET", "url" : "/WebWolf/", "msg" : "Cookie WEBWOLFSESSION created without the httponly flag"}, {"id" : "999988", "OSVDB" : "630", "method" : "GET", "url" : "/WebWolf/", "msg" : "The web server may reveal its internal or real IP in the Location header via a request to / over HTTP/1.0. The value is \"172.18.0.4\"."},
-  {"id" : "999990", "OSVDB" : "0", "method" : "OPTIONS", "url" : "/WebWolf/", "msg" : "Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, PATCH "}, {"id" : "400001", "OSVDB" : "397", "method" : "GET", "url" : "/WebWolf/", "msg" : "HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server."},
-  {"id" : "400000", "OSVDB" : "5646", "method" : "GET", "url" : "/WebWolf/", "msg" : "HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server."}, {"id" : "400004", "OSVDB" : "0", "method" : "GET", "url" : "/WebWolf/", "msg" : "HTTP method: 'PATCH' may allow client to issue patch commands to server. See RFC-5789."}
+  {"id" : "999961", "OSVDB" : "0", "method" : "GET", "url" : "/WebWolf/", "msg" : "Cookie WEBWOLFSESSION created without the httponly flag"},
+  {"id" : "999988", "OSVDB" : "630", "method" : "GET", "url" : "/WebWolf/", "msg" : "The web server may reveal its internal or real IP in the Location header via a request to / over HTTP/1.0. The value is \"172.18.0.4\"."},
+  {"id" : "999990", "OSVDB" : "0", "method" : "OPTIONS", "url" : "/WebWolf/", "msg" : "Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, PATCH "},
+  {"id" : "400001", "OSVDB" : "397", "method" : "GET", "url" : "/WebWolf/", "msg" : "HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server."},
+  {"id" : "400000", "OSVDB" : "5646", "method" : "GET", "url" : "/WebWolf/", "msg" : "HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server."},
+  {"id" : "400004", "OSVDB" : "0", "method" : "GET", "url" : "/WebWolf/", "msg" : "HTTP method: 'PATCH' may allow client to issue patch commands to server. See RFC-5789."}
 ]
 }
