@@ -17,8 +17,8 @@ func main() {
 		cmd := exec.Command("docker", "run",
 			"-v", "/Users/prakharsrivastav/Workspace/juice-box/nikto:/tmp",
 			"--rm", "prakharsrivastav/nikto:latest",
-			"-h", "http://192.168.0.18:1300/",
-			"-o", "xml", "--output", "/tmp/dvwa.xml",
+			"-h", "http://10.45.253.151:1301/portal.php",
+			"-o", "xml", "--output", "/tmp/bWapp.xml",
 			//"-Tuning", "923457",
 		)
 		//,

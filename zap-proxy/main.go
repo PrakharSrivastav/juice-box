@@ -10,8 +10,8 @@ import (
 )
 
 func setupClient() (string, zap.Interface, error) {
-	proxy := "http://192.168.0.18:8090"
-	target := "http://192.168.0.18:1300"
+	proxy := "http://10.45.253.151:8090"
+	target := "http://10.45.253.151:1301/"
 	//target := "http://192.168.0.18:8080/WebGoat/"
 	//target := "http://192.168.0.18:9090/WebWolf/"
 	//target := "http://192.168.0.18:3000/"
@@ -37,6 +37,14 @@ func main() {
 	if err != nil {
 		log.Fatalf("cannot connect to zap proxy :: %v", err)
 	}
+	//u := strconv.Quote("loginUrl=http://10.45.253.151:1301/login.php&loginRequestData=" + strconv.Quote("username=bee&password=bug"))
+	//method, err := client.Authentication().SetAuthenticationMethod("tt", "formBasedAuthentication", u)
+	/*scans, err := client.Ascan().RemoveAllScans()
+	if err != nil {
+		log.Fatalf("auth error :: %v\n", err)
+	}
+	log.Print("method :: %v", scans)
+	*/
 	scanID, err := regularSpider(target, client)
 	if err != nil {
 		log.Fatalf("error running regular spider :: %v", err)
@@ -150,7 +158,7 @@ func generateFile(client zap.Interface) error {
 		return err
 	}
 
-	f, err := os.Create("./zap-proxy/WW.json")
+	f, err := os.Create("./zap-proxy/bwapp-2.json")
 	if err != nil {
 		return err
 	}

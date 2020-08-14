@@ -25,6 +25,18 @@ services:
     ports:
       - "8090:8080"
 
+  zap-proxy-bare:
+    image: owasp/zap2docker-bare
+    command: zap.sh -daemon -port 8080 -host 0.0.0.0 -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.key=5364864132243598723485
+    ports:
+      - "8090:8080"
+
+  bwapp:
+    image: raesene/bwapp:latest
+    ports:
+    - "1301:80"
+
+
   webgoat:
     image: webgoat/webgoat-8.0
     environment:
