@@ -32,7 +32,7 @@ func setupClient() (string, zap.Interface, error) {
 // zap owasp scanner runs as a proxy that needs interaction with a client
 // it provides a client that can be used to interact with the proxy
 func main() {
-
+	print("test")
 	target, client, err := setupClient()
 	if err != nil {
 		log.Fatalf("cannot connect to zap proxy :: %v", err)
